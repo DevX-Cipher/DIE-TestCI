@@ -1,4 +1,4 @@
-name: Build DIE-engine TestCI
+name: Build DIE-engine CI
 
 on:
   workflow_dispatch:
@@ -76,7 +76,7 @@ jobs:
         with:
           arch: x86
 
-      - name: Install Qt
+      - name: Install Qt 5
         uses: jurplel/install-qt-action@v4
         with:
           version: '5.15.2'
@@ -114,7 +114,7 @@ jobs:
         with:
           arch: x64
 
-      - name: Install Qt
+      - name: Install Qt 5
         uses: jurplel/install-qt-action@v4
         with:
           version: '5.15.2'
@@ -177,7 +177,7 @@ jobs:
           echo on
           call "%X_SOURCE_PATH%\build_win_generic_qt6.cmd"
 
-    build-arch:
+  build-arch:
     runs-on: ubuntu-latest
     container: archlinux:base-devel
     steps:
@@ -203,4 +203,3 @@ jobs:
           cd /src
           sudo -u builduser bash -c 'bash -x build_archpkg.sh'
           rm -Rf release/*debug*
-
