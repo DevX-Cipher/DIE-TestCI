@@ -1,1 +1,0 @@
-function detect(){return(MACH.isLibraryPresent("libjava.dylib")||MACH.isLibraryPresent("libjvm.dylib"))&&(bDetected=!0),sLang="Java",result()}init("library","Java Runtime")

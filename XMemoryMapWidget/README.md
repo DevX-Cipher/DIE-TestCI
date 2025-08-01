@@ -1,3 +1,0 @@
-# XMemoryMapWidget
-
-Memory Map Widgets

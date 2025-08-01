@@ -1,8 +1,0 @@
-function detect(){if(8<=Binary.getSize()&&Binary.compare("CAFEBEEF")){var e=X.U16(6,_BE)
-if(e){switch(sVersion="JDK ",e){case 45:sVersion+="1.1"
-break
-case 46:sVersion+="1.2"
-break
-case 47:sVersion+="1.3"
-break
-case 48:sVersion+="1.4"}bDetected=45<=e&&e<=66}}return sLang="Java",result()}init("format","Microstation Java (JMDL) Compiled Class")

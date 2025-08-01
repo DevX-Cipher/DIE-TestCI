@@ -1,3 +1,0 @@
-# XQwt
-
-QWT for Qt

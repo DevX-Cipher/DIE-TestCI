@@ -1,1 +1,0 @@
-function detect(){return bDetected=PE.isNetUStringPresent("^-([^: ]+)[ :]?([^:]*)$"),sLang="PowerShell",result()}init("packer","PS2EXE")

@@ -1,3 +1,0 @@
-# XStyles
-
-Styles

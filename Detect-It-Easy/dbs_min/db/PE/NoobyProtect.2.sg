@@ -1,2 +1,0 @@
-function detect(){var e=PE.section[PE.getImportSection()]
-return e&&"SE"==e.Name&&(sVersion="Safengine",bDetected=!0),result()}init("protector","NoobyProtect")

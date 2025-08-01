@@ -1,3 +1,0 @@
-# XMIMEWidget
-
-Widget for MIME

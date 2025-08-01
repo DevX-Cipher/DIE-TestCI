@@ -1,2 +1,0 @@
-function detect(){var e,n
-return 64<=Binary.getSize()&&Binary.compare("'%!PS-Adobe-'",0)&&Binary.compare("' EPSF-'",14)&&(sVersion=sVersion.append(Binary.getString(11,3),Binary.getString(20,3)),e=Binary.getString(0,1024),bDetected=!0,Binary.isVerbose())&&((n=e.match(/%%Creator: (.*?)[\r\n]/))&&(sOptions=sOptions.append("Creator:"+n[1])),n=e.match(/%%Pages: (.*?)[\r\n]/))&&(sOptions=sOptions.append("Pages:"+n[1])),result()}init("image","Encapsulated PostScript (.EPS)")

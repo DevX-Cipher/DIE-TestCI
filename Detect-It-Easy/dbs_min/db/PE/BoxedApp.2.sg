@@ -1,2 +1,0 @@
-function detect(){var e=PE.section[".bxpck"]
-return e&&(e=PE.section[e.Number+1])&&".main"===e.Name&&(bDetected=!0),result()}init("packer","BoxedApp")

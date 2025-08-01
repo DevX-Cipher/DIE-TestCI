@@ -1,3 +1,0 @@
-# XMIME
-
-Detect MIME

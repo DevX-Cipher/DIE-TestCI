@@ -1,3 +1,0 @@
-# XDisasmView
-
-Disasm widgets

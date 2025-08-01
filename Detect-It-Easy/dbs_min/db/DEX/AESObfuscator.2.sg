@@ -1,1 +1,0 @@
-function detect(){return bDetected=DEX.isDexStringPresent("AESObfuscator.java"),sLang="Java",result()}init("protector","AESObfuscator")

@@ -1,3 +1,0 @@
-# XDynStructsEngine
-
-Engine for structs

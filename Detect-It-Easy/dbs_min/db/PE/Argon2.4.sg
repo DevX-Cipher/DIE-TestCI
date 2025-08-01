@@ -1,1 +1,0 @@
-function detect(){return(PE.isExportFunctionPresent("argon2_hash")||PE.isFunctionPresent("argon2_hash"))&&(bDetected=!0),result()}init("library","Argon2")

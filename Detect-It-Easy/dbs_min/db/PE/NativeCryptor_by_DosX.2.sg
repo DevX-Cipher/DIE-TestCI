@@ -1,1 +1,0 @@
-function detect(){return bDetected=3<=PE.getNumberOfSections()&&PE.compareOverlay("'7stgc_hdr'00"),result()}init("cryptor","NativeCryptor by DosX")
