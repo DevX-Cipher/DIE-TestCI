@@ -177,7 +177,7 @@ jobs:
           echo on
           call "%X_SOURCE_PATH%\build_win_generic_qt6.cmd"
 
-    build-arch:
+  build-arch:
     runs-on: ubuntu-latest
     container:
       image: archlinux:base-devel
