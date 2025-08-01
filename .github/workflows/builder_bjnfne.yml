@@ -80,6 +80,7 @@ jobs:
           git clone https://github.com/horsicq/XScanEngine
           git clone https://github.com/horsicq/XDisasmCore.git
           git clone https://github.com/horsicq/XRegionsWidget.git
+          chmod a+x configure
           ./configure
           make -j4
 
