@@ -1,0 +1,1 @@
+function detect(){return""!=(sOptions=Jpeg.getComment())&&(bDetected=!0),result()}init("image","comment")

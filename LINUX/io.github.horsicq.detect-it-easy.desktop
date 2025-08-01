@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Detect It Easy
+Comment=Advanced file analyzer
+Exec=die %f
+Icon=io.github.horsicq.detect-it-easy
+Categories=Development;
+MimeType=application/octet-stream;
+Keywords=die;
+StartupWMClass=die

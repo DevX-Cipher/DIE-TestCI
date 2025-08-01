@@ -1,0 +1,1583 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Language: bn\n"
+
+msgid "128-bit"
+msgstr "১২৮-বিট"
+
+msgid "16-bit"
+msgstr "১৬-বিট"
+
+msgid "256-bit"
+msgstr "২৫৬-বিট"
+
+msgid "32-bit"
+msgstr "৩২-বিট"
+
+msgid "64-bit"
+msgstr "৬৪-বিট"
+
+msgid "8-bit"
+msgstr "৮-বিট"
+
+msgid "API key"
+msgstr "এপিআই কী"
+
+msgid "About"
+msgstr "সম্পর্ক"
+
+msgid "Action"
+msgstr "ক্রিয়া"
+
+msgid "Add"
+msgstr "যোগ"
+
+msgid "Add alignment"
+msgstr "সমতলতা যোগ করুন"
+
+msgid "Add to context menu"
+msgstr "প্রসঙ্গ মেনুতে যোগ করুন"
+
+msgid "Address"
+msgstr "ঠিকানা"
+
+msgid "Advanced"
+msgstr "উন্নত"
+
+msgid "Aggressive scan"
+msgstr "আক্রমণাত্মক স্ক্যান"
+
+msgid "Algorithm"
+msgstr "অ্যালগরিদম"
+
+msgid "All"
+msgstr "সব"
+
+msgid "All files"
+msgstr "সকল নথি"
+
+msgid "All types"
+msgstr "সব ধরনের"
+
+msgid "Analyze"
+msgstr "বিশ্লেষণ"
+
+msgid "Analyzed"
+msgstr "বিশ্লেষণ করা হয়েছে"
+
+msgid "Animate"
+msgstr "জীবন্তসদৃশ"
+
+msgid "Appearance"
+msgstr "চেহারা"
+
+msgid "Application"
+msgstr "আবেদন"
+
+msgid "Architecture"
+msgstr "স্থাপত্য"
+
+msgid "Archive"
+msgstr "সংরক্ষণাগার"
+
+msgid "Archive record"
+msgstr "সংরক্ষণাগার নথি"
+
+msgid "Array"
+msgstr "পৃষ্ঠানুযায়ী সাজান"
+
+msgid "Arrows"
+msgstr "তীর"
+
+msgid "Attach"
+msgstr "সংযুক্ত করা"
+
+msgid "Audio"
+msgstr "শ্রুতি"
+
+msgid "Author"
+msgstr "লেখক"
+
+msgid "Automatic"
+msgstr "স্বয়ংক্রিয়"
+
+msgid "Background"
+msgstr "পটভূমি"
+
+msgid "Base"
+msgstr "ভিত্তি"
+
+msgid "Base address"
+msgstr "মূল ঠিকানা"
+
+msgid "Begin"
+msgstr "শুরু করুন"
+
+msgid "Binary"
+msgstr "বাইনারি"
+
+msgid "Bind"
+msgstr "বাঁধাই করা"
+
+msgid "Binding"
+msgstr "বাঁধাই"
+
+msgid "Bits"
+msgstr "বিট"
+
+msgid "Block size"
+msgstr "ব্লকের আকার"
+
+msgid "Bookmark"
+msgstr "পুস্তক-চিহ্ন"
+
+msgid "Bookmarks"
+msgstr "পুস্তক-চিহ্ন সমূহ"
+
+msgid "Boot application"
+msgstr "বুট অ্যাপ্লিকেশন"
+
+msgid "Boot service driver"
+msgstr "বুট সার্ভিস ড্রাইভার"
+
+msgid "Bound import"
+msgstr "আবদ্ধ আমদানি"
+
+msgid "Breakpoint"
+msgstr "ব্রেকপয়েন্ট"
+
+msgid "Breakpoints"
+msgstr "ব্রেকপয়েন্টগুলো"
+
+msgid "Buffer size"
+msgstr "বাফারের আকার"
+
+msgid "Bugreports"
+msgstr "ত্রুটি প্রতিবেদন"
+
+msgid "Bundle"
+msgstr "বান্ডেল"
+
+msgid "Byte"
+msgstr "বাইট"
+
+msgid "Bytes"
+msgstr "বাইটগুলো"
+
+msgid "Bytes available"
+msgstr "বাইটগুলো ব্যবহারযোগ্য"
+
+msgid "CPU"
+msgstr "সিপিইউ(কেন্দ্রীয় প্রক্রিয়াজাতকরণ ইউনিট)"
+
+msgid "Calculate"
+msgstr "হিসাব করুন"
+
+msgid "Callbacks"
+msgstr "কলব্যাক"
+
+msgid "Callstack"
+msgstr "কলের স্তূপ"
+
+msgid "Cancel"
+msgstr "বাতিল করুন"
+
+msgid "Cannot find"
+msgstr "খুঁজে পাওয়া যায়নি"
+
+msgid "Cannot find file"
+msgstr "ফাইল খুঁজে পাওয়া যায়নি"
+
+msgid "Cannot fix dump file"
+msgstr "ডাম্প ফাইল ঠিক করা যায়নি"
+
+msgid "Cannot get PDB age"
+msgstr "PDB বয়স পেতে পারে না"
+
+msgid "Cannot get PDB name"
+msgstr "PDB নাম পাওয়া যাচ্ছে না"
+
+msgid "Cannot load MSDIA library"
+msgstr "MSDIA লাইব্রেরি লোড করা যাবে না"
+
+msgid "Cannot load data from PDB"
+msgstr "PDB থেকে ডেটা লোড করা যাবে না"
+
+msgid "Cannot load database"
+msgstr "ডাটাবেস লোড করা যাবে না"
+
+msgid "Cannot load file"
+msgstr "ফাইল লোড করা যাবে না"
+
+msgid "Cannot open dump file"
+msgstr "ডাম্প ফাইল খোলা যায়নি"
+
+msgid "Cannot open file"
+msgstr "ফাইলটি খুলতে পারছি না"
+
+msgid "Cannot open session"
+msgstr "অধিবেশন খুলতে পারবেন না"
+
+msgid "Cannot read file"
+msgstr "ফাইল পড়া যায়নি"
+
+msgid "Cannot read memory at address"
+msgstr "ঠিকানায় মেমরি পড়তে পারে না"
+
+msgid "Cannot resize"
+msgstr "আকার পরিবর্তন করা যায়নি"
+
+msgid "Cannot save file"
+msgstr "ফাইল সংরক্ষণ করা যাবে না"
+
+msgid "Cannot set shortcut"
+msgstr "সহজতর পদ্ধতি সেট করা যাবে না"
+
+msgid "Cannot write data to file"
+msgstr "ফাইলে ডেটা লেখা যায়নি"
+
+msgid "Certificate"
+msgstr "সনদপত্র"
+
+msgid "Check"
+msgstr "খতিয়ে দেখা"
+
+msgid "Check updates"
+msgstr "নতুন পরিবর্তন খতিয়ে দেখা"
+
+msgid "Clear"
+msgstr "পরিষ্কার"
+
+msgid "Clear result"
+msgstr "ফলাফল পরিষ্কার করুন"
+
+msgid "Close"
+msgstr "বন্ধ"
+
+msgid "Code pages"
+msgstr "সংকেতপদ্ধতির পাতাগুলো"
+
+msgid "Code section"
+msgstr "সংকেতপদ্ধতির অংশ"
+
+msgid "Color"
+msgstr "রং"
+
+msgid "Colors"
+msgstr "রংগুলো"
+
+msgid "Commands"
+msgstr "সংকেতগুলো"
+
+msgid "Comment"
+msgstr "মন্তব্য"
+
+msgid "Compact"
+msgstr "সংক্ষিপ্ত"
+
+msgid "Compiler"
+msgstr "কম্পাইলার"
+
+msgid "Compressor"
+msgstr "কম্প্রেসর"
+
+msgid "Conditional"
+msgstr "শর্তাধীন"
+
+msgid "Console"
+msgstr "কনসোল"
+
+msgid "Controls"
+msgstr "নিয়ন্ত্রণ"
+
+msgid "Converter"
+msgstr "রূপান্তরকারী"
+
+msgid "Convertor"
+msgstr "রূপান্তরক"
+
+msgid "Copy"
+msgstr "অনুলিপি"
+
+msgid "Copy as"
+msgstr "হিসাবে অনুলিপি"
+
+msgid "Corrupted data"
+msgstr "দূষিত ডেটা"
+
+msgid "Count"
+msgstr "গণনা"
+
+msgid "Creator"
+msgstr "স্রষ্টা"
+
+msgid "Crypter"
+msgstr "ক্রিপ্টার"
+
+msgid "Cryptor"
+msgstr "ক্রিপ্টর"
+
+msgid "Cursor"
+msgstr "কার্সার"
+
+msgid "Custom"
+msgstr "স্বনির্ধারিত"
+
+msgid "Custom database"
+msgstr "স্বনির্ধারিত ডাটাবেস"
+
+msgid "Data"
+msgstr "উপাত্ত"
+
+msgid "Data convertor"
+msgstr "ডেটা রূপান্তরক"
+
+msgid "Data in code"
+msgstr "সংকেতপদ্ধতিতে উপাত্ত"
+
+msgid "Database"
+msgstr "তথ্যশালা"
+
+msgid "Databases"
+msgstr "ডাটাবেসসমূহ"
+
+msgid "Date"
+msgstr "তারিখ"
+
+msgid "Debug"
+msgstr "ডিবাগ(সংশোধন)"
+
+msgid "Debug data"
+msgstr "উপাত্তের সংশোধন"
+
+msgid "Debug registers"
+msgstr "ডিবাগ রেজিস্টার"
+
+msgid "Decode"
+msgstr "ডিকোড"
+
+msgid "Deep scan"
+msgstr "গভীরভাবে নির্ণয় করা"
+
+msgid "Default"
+msgstr "ডিফল্ট"
+
+msgid "Delay import"
+msgstr "বিলম্ব আমদানি"
+
+msgid "Demangle"
+msgstr "Demangle"
+
+msgid "Dependencies"
+msgstr "নির্ভরতা"
+
+msgid "Description"
+msgstr "বর্ণনা"
+
+msgid "Detach"
+msgstr "বিচ্ছিন্ন করুন"
+
+msgid "Detect"
+msgstr "সনাক্ত করুন"
+
+msgid "Device scan"
+msgstr "ডিভাইস স্ক্যান"
+
+msgid "Diagram"
+msgstr "রেখাচিত্র"
+
+msgid "Dialog"
+msgstr "ডায়ালগ"
+
+msgid "Directory"
+msgstr "বিবিধ তথ্যসম্বলি"
+
+msgid "Directory scan"
+msgstr "বিবিধ তথ্যসম্বলি স্ক্যান"
+
+msgid "Disasm"
+msgstr "বিচ্ছিন্নতা"
+
+msgid "Document"
+msgstr "দলিল"
+
+msgid "Documents"
+msgstr "দলিলগুলো"
+
+msgid "Donate"
+msgstr "দান করুন"
+
+msgid "Driver"
+msgstr "চালক"
+
+msgid "Dump"
+msgstr "অস্বস্তিকর জায়গা"
+
+msgid "Dump all"
+msgstr "অস্বস্তিকর সব"
+
+msgid "Dump to file"
+msgstr "অস্বস্তিকর ফাইল"
+
+msgid "Edit"
+msgstr "সম্পাদনা করুন"
+
+msgid "Editor"
+msgstr "সম্পাদক"
+
+msgid "Elapsed"
+msgstr "অতিবাহিত"
+
+msgid "Encode"
+msgstr "এনকোড"
+
+msgid "End"
+msgstr "শেষ"
+
+msgid "Endianness"
+msgstr "এন্ডিয়াননেস"
+
+msgid "Entropy"
+msgstr "এনট্রপি"
+
+msgid "Entry point"
+msgstr "এন্ট্রি পয়েন্ট"
+
+msgid "Entry point section"
+msgstr "এন্ট্রি পয়েন্ট বিভাগ"
+
+msgid "Error"
+msgstr "ত্রুটি"
+
+msgid "Exceptions"
+msgstr "ব্যতিক্রম"
+
+msgid "Exit"
+msgstr "প্রস্থান করুন"
+
+msgid "Export"
+msgstr "রপ্তানি"
+
+msgid "Export File Name"
+msgstr "ফাইলের নাম রপ্তানি করুন"
+
+msgid "Export type"
+msgstr "রপ্তানি প্রকার"
+
+msgid "Extender"
+msgstr "প্রসারক"
+
+msgid "External references"
+msgstr "বাহ্যিক তথ্যসূত্র"
+
+msgid "Extra"
+msgstr "অতিরিক্ত"
+
+msgid "Extra database"
+msgstr "অতিরিক্ত ডাটাবেস"
+
+msgid "Extract"
+msgstr "নিষ্কাশন করা"
+
+msgid "Extract all cursors"
+msgstr "cursors নিষ্কাশন করা"
+
+msgid "Extract all icons"
+msgstr "icons নিষ্কাশন করা"
+
+msgid "Extractor"
+msgstr "নিষ্কাশনকারী"
+
+msgid "File"
+msgstr "ফাইল"
+
+msgid "File info"
+msgstr "ফাইল তথ্য"
+
+msgid "File name"
+msgstr "ফাইলের নাম"
+
+msgid "File offset"
+msgstr "ফাইল অফসেট"
+
+msgid "File saved"
+msgstr "ফাইল সংরক্ষিত"
+
+msgid "File scan"
+msgstr "ফাইল স্ক্যান"
+
+msgid "File size"
+msgstr "ফাইলের আকার"
+
+msgid "File type"
+msgstr "ফাইলের ধরন"
+
+msgid "Files"
+msgstr "নথি পত্র"
+
+msgid "Filter"
+msgstr "ছাঁকনি"
+
+msgid "Find"
+msgstr "অনুসন্ধান"
+
+msgid "First"
+msgstr "প্রথম"
+
+msgid "Fix offsets"
+msgstr "অফসেট ঠিক করুন"
+
+msgid "Fix types"
+msgstr "ধরন ঠিক করুন"
+
+msgid "Flags"
+msgstr "পতাকা"
+
+msgid "Flags register"
+msgstr "ফ্ল্যাগ রেজিস্টার"
+
+msgid "Folder"
+msgstr "ফোল্ডার"
+
+msgid "Follow in"
+msgstr "অনুসরণ করুন"
+
+msgid "Follow me"
+msgstr "আমাকে অনুসরণ করুন"
+
+msgid "Fonts"
+msgstr "ফন্ট"
+
+msgid "Footer"
+msgstr "ফুটার"
+
+msgid "Form"
+msgstr "ফর্ম"
+
+msgid "Format"
+msgstr "গঠন"
+
+msgid "Format result"
+msgstr ""
+
+msgid "Full"
+msgstr "সম্পূর্ণ"
+
+msgid "Full screen"
+msgstr "পূর্ণ পর্দা"
+
+msgid "Function enter"
+msgstr "ফাংশনে প্রবেশ"
+
+msgid "Function leave"
+msgstr "ফাংশন ত্যাগ"
+
+msgid "Functions"
+msgstr "ফাংশন"
+
+msgid "GB"
+msgstr "জিবি"
+
+msgid "General registers"
+msgstr "সাধারণ রেজিস্টার"
+
+msgid "Generic"
+msgstr "বর্গীয়"
+
+msgid "Get"
+msgstr "পাওয়া"
+
+msgid "Get element"
+msgstr "উপাদান পাওয়া"
+
+msgid "GiB"
+msgstr "জিআইবি(Gibibyte)"
+
+msgid "Go to"
+msgstr "যাও"
+
+msgid "Go to address"
+msgstr "ঠিকানায় যান"
+
+msgid "Go to download page?"
+msgstr "ডাউনলোড পৃষ্ঠায় যান?"
+
+msgid "Gradient"
+msgstr "গ্রেডিয়েন্ট"
+
+msgid "Grid"
+msgstr "গ্রিড"
+
+msgid "Group"
+msgstr "গ্রুপ"
+
+msgid "Handles"
+msgstr "হ্যান্ডেল"
+
+msgid "Hardware"
+msgstr "হার্ডওয়্যার"
+
+msgid "Hash"
+msgstr "হ্যাশ"
+
+msgid "Header"
+msgstr "হেডার"
+
+msgid "Height"
+msgstr "উচ্চতা"
+
+msgid "Help"
+msgstr "সাহায্য"
+
+msgid "Heuristic"
+msgstr "হিউরিস্টিক (অনুসন্ধানমূলক)"
+
+msgid "Heuristic scan"
+msgstr "হিউরিস্টিক (অনুসন্ধানমূলক) স্ক্যান"
+
+msgid "Heuristics"
+msgstr "হিউরিস্টিক্স"
+
+msgid "Hex"
+msgstr "হেক্স"
+
+msgid "Hide unknown"
+msgstr "অজানা লুকান"
+
+msgid "Highlight"
+msgstr "লক্ষণীয় করা"
+
+msgid "Highlights"
+msgstr "হাইলাইট"
+
+msgid "Image"
+msgstr "ইমেজ"
+
+msgid "Images"
+msgstr "ছবিগুলো"
+
+msgid "Import"
+msgstr "আমদানি"
+
+msgid "Import hash"
+msgstr "আমদানি হ্যাশ"
+
+msgid "Indirect symbols"
+msgstr "পরোক্ষ প্রতীক"
+
+msgid "Info"
+msgstr "তথ্য"
+
+msgid "Information"
+msgstr "তথ্য"
+
+msgid "Input"
+msgstr "ইনপুট"
+
+msgid "Inspector"
+msgstr "পরিদর্শক"
+
+msgid "Installer"
+msgstr "ইনস্টলার"
+
+msgid "Installer data"
+msgstr "ইনস্টলার ডেটা"
+
+msgid "Instruction pointer register"
+msgstr ""
+
+msgid "Interpreter"
+msgstr "দোভাষী"
+
+msgid "Invalid"
+msgstr "অবৈধ"
+
+msgid "Invalid font"
+msgstr "অবৈধ ফন্ট"
+
+msgid "Invalid handle"
+msgstr "অবৈধ হ্যান্ডেল"
+
+msgid "Invalid offset"
+msgstr "অবৈধ অফসেট"
+
+msgid "Invalid opcode"
+msgstr "অবৈধ opcode"
+
+msgid "Invalid signature"
+msgstr "অবৈধ স্বাক্ষর"
+
+msgid "Invalid size"
+msgstr "অবৈধ আকার"
+
+msgid "Issuer"
+msgstr "ইস্যুকারী"
+
+msgid "Joiner"
+msgstr "যোগদানকারী"
+
+msgid "Keep size"
+msgstr "আকার রাখুন"
+
+msgid "KiB"
+msgstr "কেআইবি (Kibibyte)"
+
+msgid "Language"
+msgstr "ভাষা"
+
+msgid "Last"
+msgstr "শেষ"
+
+msgid "Lazy binding"
+msgstr "স্লথ যুক্তওন"
+
+msgid "Length"
+msgstr "দৈর্ঘ্য"
+
+msgid "Libraries"
+msgstr "গ্রন্থাগার সমূহ"
+
+msgid "Library"
+msgstr "গ্রন্থাগার"
+
+msgid "Library name"
+msgstr "গ্রন্থাগারের নাম"
+
+msgid "Licensing"
+msgstr "লাইসেন্সিং"
+
+msgid "Linker"
+msgstr "সংযুক্তকারী"
+
+msgid "Links"
+msgstr "সংযুক্তসমূহ"
+
+msgid "List"
+msgstr "সূচী"
+
+msgid "Load"
+msgstr "লোড"
+
+msgid "Load config"
+msgstr "লোড কনফিগারেশন"
+
+msgid "Loader"
+msgstr "লোডার"
+
+msgid "Local relocation"
+msgstr "স্থানীয় স্থানান্তর"
+
+msgid "Location"
+msgstr "অবস্থান"
+
+msgid "Log"
+msgstr "ঘটনার তথ্যশালা"
+
+msgid "MB"
+msgstr "এমবি (মেগাবাইট)"
+
+msgid "Main"
+msgstr "প্রধান"
+
+msgid "Main module"
+msgstr "প্রধান মডিউল"
+
+msgid "MainWindow"
+msgstr "মূল জানালা"
+
+msgid "Malware"
+msgstr "ম্যালওয়্যার"
+
+msgid "Manifest"
+msgstr "উদ্ভিন্ন"
+
+msgid "Map"
+msgstr "মানচিত্র"
+
+msgid "Maps"
+msgstr "মানচিত্রসমূহ"
+
+msgid "Mask"
+msgstr "মাস্ক"
+
+msgid "Match case"
+msgstr "সমকক্ষ ধরন"
+
+msgid "Matches"
+msgstr "মিল"
+
+msgid "Maximum"
+msgstr "সর্বোচ্চ"
+
+msgid "Memory"
+msgstr "মস্তিষ্ক"
+
+msgid "Memory map"
+msgstr "মস্তিষ্কের মানচিত্র"
+
+msgid "Memory scan"
+msgstr "মস্তিষ্কের স্ক্যান"
+
+msgid "Metadata"
+msgstr "মেটাডাটা"
+
+msgid "Metadata table"
+msgstr "মেটাডেটা টেবিল"
+
+msgid "Method"
+msgstr "পদ্ধতি"
+
+msgid "Methods"
+msgstr "পদ্ধতি"
+
+msgid "MiB"
+msgstr "এমআইবি (Mebibyte)"
+
+msgid "Min length"
+msgstr "সর্বনিম্ন দৈর্ঘ্য"
+
+msgid "Mode"
+msgstr "মোড"
+
+msgid "Modules"
+msgstr "মডিউলসমূহ"
+
+msgid "More info"
+msgstr "অধিক তথ্য"
+
+msgid "Multiplatform"
+msgstr "বহুমঞ্চ"
+
+msgid "Multisearch"
+msgstr "বহু অনুসন্ধান"
+
+msgid "Name"
+msgstr "নাম"
+
+msgid "Network error"
+msgstr "নেটওয়ার্ক ত্রুটি"
+
+msgid "New"
+msgstr "নতুন"
+
+msgid "New version available"
+msgstr "নতুন সংস্করণ উপলব্ধ"
+
+msgid "Next"
+msgstr "পরবর্তী"
+
+msgid "Next visited"
+msgstr ""
+
+msgid "No"
+msgstr "না"
+
+msgid "No update available"
+msgstr "নতুন কোন সংস্করণ হয়নি"
+
+msgid "None"
+msgstr "কিছু না"
+
+msgid "Nothing found"
+msgstr "কোনকিছু পাওয়া যায়নি"
+
+msgid "Null-terminated"
+msgstr "নাল-সমাপ্ত"
+
+msgid "Numbers"
+msgstr "সংখ্যা"
+
+msgid "OK"
+msgstr "ঠিক আছে"
+
+msgid "Obfuscator"
+msgstr "অবস্কিউফিকেটর"
+
+msgid "Object"
+msgstr "বস্তু"
+
+msgid "Objects"
+msgstr "বস্তুসমূহ"
+
+msgid "Offset"
+msgstr "অফসেট"
+
+msgid "One operand"
+msgstr "এক অপারেন্ড"
+
+msgid "Online tools"
+msgstr "অনলাইন টুলস"
+
+msgid "Opcode"
+msgstr "অপকোড"
+
+msgid "Opcode group"
+msgstr "অপকোড গ্রুপ"
+
+msgid "Opcodes"
+msgstr "অপকোড সমূহ"
+
+msgid "Open"
+msgstr "খোলা"
+
+msgid "Open directory"
+msgstr "ডিরেক্টরি খুলুন"
+
+msgid "Open file"
+msgstr "ফাইল খুলুন"
+
+msgid "Operation system"
+msgstr "অপারেটিং সিস্টেম"
+
+msgid "Options"
+msgstr "বিকল্প"
+
+msgid "Output"
+msgstr "আউটপুট"
+
+msgid "Overlay"
+msgstr "ওভারলে"
+
+msgid "Package"
+msgstr "প্যাকেজ"
+
+msgid "Packer"
+msgstr "ভরক (Packer)"
+
+msgid "Patch"
+msgstr "প্যাচ"
+
+msgid "Pause"
+msgstr "বিরতি"
+
+msgid "Paused"
+msgstr "বিরতি দেওয়া হয়েছে"
+
+msgid "Payload"
+msgstr "পেলোড"
+
+msgid "Personal data"
+msgstr "ব্যক্তিগত তথ্য"
+
+msgid "Plain Text"
+msgstr "সাধারণ টেক্সট"
+
+msgid "Platform"
+msgstr "প্ল্যাটফর্ম"
+
+msgid "Player"
+msgstr "ক্রীড়ক"
+
+msgid "Please restart the application"
+msgstr "অনুগ্রহ করে অ্যাপ্লিকেশনটি পুনরায় চালু করুন"
+
+msgid "Please run the program as an administrator"
+msgstr "প্রশাসক হিসাবে প্রোগ্রাম চালান"
+
+msgid "Please use valid API key"
+msgstr "অনুগ্রহ করে বৈধ API কী ব্যবহার করুন"
+
+msgid "Pointer"
+msgstr "পয়েন্টার"
+
+msgid "Position"
+msgstr "অবস্থান"
+
+msgid "Previous visited"
+msgstr "পূর্ববর্তী পরিদর্শিত"
+
+msgid "Print"
+msgstr "ছাপা"
+
+msgid "Process"
+msgstr "প্রক্রিয়া"
+
+msgid "Producer"
+msgstr "প্রযোজক"
+
+msgid "Profiling"
+msgstr "প্রোফাইলিং"
+
+msgid "Program name"
+msgstr "অনুষ্ঠানের নাম"
+
+msgid "Programs"
+msgstr "অনুষ্ঠানেগুলো"
+
+msgid "Protection"
+msgstr "সুরক্ষা"
+
+msgid "Protector"
+msgstr "সুরক্ষাকারী"
+
+msgid "Protector data"
+msgstr "সুরক্ষাকারী তথ্য"
+
+msgid "Prototype"
+msgstr "আদিরূপ"
+
+msgid "Publisher"
+msgstr "প্রকাশক"
+
+msgid "Raw data"
+msgstr "র' ডেটা"
+
+msgid "Read error"
+msgstr "ত্রুটি পড়া"
+
+msgid "Readonly"
+msgstr "শুধুমাত্র পাঠযোগ্য"
+
+msgid "Rebase"
+msgstr ""
+
+msgid "Recent files"
+msgstr "সাম্প্রতিক নথিপত্র"
+
+msgid "Recursive"
+msgstr "পুনরাবৃত্তি"
+
+msgid "Recursive scan"
+msgstr "পুনরাবৃত্তি স্ক্যান"
+
+msgid "References"
+msgstr "তথ্যসূত্র"
+
+msgid "Region"
+msgstr "অঞ্চল"
+
+msgid "Regions"
+msgstr "অঞ্চলগুলো"
+
+msgid "Register"
+msgstr "নিবন্ধন"
+
+msgid "Registers"
+msgstr ""
+
+msgid "Regular expression"
+msgstr "নিয়মিত অভিব্যক্তি"
+
+msgid "Relative address"
+msgstr "আপেক্ষিক ঠিকানা"
+
+msgid "Relative virtual address"
+msgstr "আপেক্ষিক ভার্চুয়াল ঠিকানা"
+
+msgid "Reload"
+msgstr "পুনরায় লোড করুন"
+
+msgid "Relocs"
+msgstr "Relocs"
+
+msgid "Remove"
+msgstr "অপসারণ"
+
+msgid "Rescan"
+msgstr "পুনরায় স্ক্যান করা"
+
+msgid "Resize"
+msgstr "আকার পরিবর্তন"
+
+msgid "Resource"
+msgstr "সম্পদ"
+
+msgid "Resources"
+msgstr "সম্পদগুলো"
+
+msgid "Restart"
+msgstr "আবার শুরু"
+
+msgid "Result"
+msgstr "ফলাফল"
+
+msgid "Rule name"
+msgstr "নিয়মের নাম"
+
+msgid "Rules"
+msgstr "নিয়মাবলী"
+
+msgid "Run"
+msgstr "চালান"
+
+msgid "Run path"
+msgstr "চালানোর পথ"
+
+msgid "Running"
+msgstr "চলমান"
+
+msgid "Runtime driver"
+msgstr "রানটাইম ড্রাইভার"
+
+msgid "Save"
+msgstr "সংরক্ষণ"
+
+msgid "Save as"
+msgstr "সংরক্ষণ করুন"
+
+msgid "Save backup"
+msgstr "ব্যাকআপ সংরক্ষণ করুন"
+
+msgid "Save diagram"
+msgstr "ডায়াগ্রাম সংরক্ষণ করুন"
+
+msgid "Save dump"
+msgstr "ডাম্প সংরক্ষণ করুন"
+
+msgid "Save file"
+msgstr "ফাইল সংরক্ষণ"
+
+msgid "Save history"
+msgstr "ইতিহাস সংরক্ষণ করুন"
+
+msgid "Save last directory"
+msgstr "শেষ ডিরেক্টরি সংরক্ষণ করুন"
+
+msgid "Save result"
+msgstr "ফলাফল সংরক্ষণ করুন"
+
+msgid "Scan"
+msgstr "স্ক্যান"
+
+msgid "Scan after open"
+msgstr "খোলার পরে স্ক্যান করুন"
+
+msgid "Scan engine"
+msgstr ""
+
+msgid "Schema"
+msgstr ""
+
+msgid "Script"
+msgstr ""
+
+msgid "Scripts"
+msgstr ""
+
+msgid "Search"
+msgstr "অনুসন্ধান করুন"
+
+msgid "Search from"
+msgstr "থেকে অনুসন্ধান করুন"
+
+msgid "Search signature"
+msgstr "স্বাক্ষর অনুসন্ধান"
+
+msgid "Search signatures"
+msgstr "স্বাক্ষর অনুসন্ধান করুন"
+
+msgid "Search string"
+msgstr "স্ট্রিং অনুসন্ধান"
+
+msgid "Search value"
+msgstr "মান অনুসন্ধান"
+
+msgid "Search values"
+msgstr "অনুসন্ধান মানগুলো"
+
+msgid "Section"
+msgstr "বিভাগ"
+
+msgid "Section name"
+msgstr "বিভাগের নাম"
+
+msgid "Sections"
+msgstr "বিভাগগুলো"
+
+msgid "Segment"
+msgstr "অংশ"
+
+msgid "Segment registers"
+msgstr ""
+
+msgid "Segments"
+msgstr "অংশগুলো"
+
+msgid "Select"
+msgstr "নির্বাচন করুন"
+
+msgid "Selected"
+msgstr "নির্বাচিত"
+
+msgid "Selection"
+msgstr "নির্বাচন"
+
+msgid "Serial number"
+msgstr "ক্রমিক সংখ্যা"
+
+msgid "Shortcut"
+msgstr "শর্টকাট"
+
+msgid "Shortcuts"
+msgstr "শর্টকাটগুলো"
+
+msgid "Show"
+msgstr "দেখান"
+
+msgid "Show all"
+msgstr "সবগুলো দেখান"
+
+msgid "Show colons in addresses"
+msgstr "ঠিকানায় কোলন দেখান"
+
+msgid "Show comments"
+msgstr "মন্তব্য দেখান"
+
+msgid "Show detects"
+msgstr "সনাক্তকরণ দেখান"
+
+msgid "Show in"
+msgstr "দেখাও"
+
+msgid "Show info"
+msgstr "তথ্য দেখান"
+
+msgid "Show logo"
+msgstr "লোগো দেখান"
+
+msgid "Show type"
+msgstr "ধরন দেখান"
+
+msgid "Show valid"
+msgstr "বৈধ দেখান"
+
+msgid "Show version"
+msgstr "সংস্করণ দেখান"
+
+msgid "Sign tool"
+msgstr "সাইন টুল"
+
+msgid "Signature"
+msgstr "স্বাক্ষর"
+
+msgid "Signature name"
+msgstr ""
+
+msgid "Signatures"
+msgstr "স্বাক্ষরগুলো"
+
+msgid "Signed"
+msgstr "স্বাক্ষরিত"
+
+msgid "Single application"
+msgstr "একক আবেদন"
+
+msgid "Size"
+msgstr "আকার"
+
+msgid "Size of image"
+msgstr "ছবির আকার"
+
+msgid "Sort"
+msgstr ""
+
+msgid "Sort elements"
+msgstr "উপাদান সাজান"
+
+msgid "Sort type"
+msgstr "সাজানোর ধরন"
+
+msgid "Sorted"
+msgstr "সাজানো"
+
+msgid "Source code"
+msgstr "সোর্স কোড"
+
+msgid "Spaces"
+msgstr "স্পেস"
+
+msgid "Stack"
+msgstr "স্তূপ"
+
+msgid "Stack registers"
+msgstr "স্ট্যাক রেজিস্টার"
+
+msgid "Start"
+msgstr "শুরু করুন"
+
+msgid "Status"
+msgstr "পদমর্যাদা"
+
+msgid "Stay on top"
+msgstr "উপরে অবস্থান করুন"
+
+msgid "Step into"
+msgstr "পদার্পণ করা"
+
+msgid "Step over"
+msgstr "ধাপ উপরে"
+
+msgid "Stop"
+msgstr "থামো"
+
+msgid "String"
+msgstr "স্ট্রিং (string)"
+
+msgid "String table"
+msgstr "স্ট্রিং টেবিল"
+
+msgid "Strings"
+msgstr "স্ট্রিং সমূহ"
+
+msgid "Struct"
+msgstr "স্ট্রাক (Struct)"
+
+msgid "Struct and unions"
+msgstr "স্ট্রাক এবং ইউনিয়ন Struct and unions"
+
+msgid "Structs"
+msgstr "Structs"
+
+msgid "Stub"
+msgstr "অসম্পূর্ণ"
+
+msgid "Style"
+msgstr "শৈলী"
+
+msgid "Subdirectories"
+msgstr "সাব-ডিরেক্টরি"
+
+msgid "Subject"
+msgstr "বিষয়"
+
+msgid "Symbol"
+msgstr "প্রতীক"
+
+msgid "Symbol table"
+msgstr "প্রতীক টেবিল"
+
+msgid "Symbols"
+msgstr "প্রতীকগুলো"
+
+msgid "Sync"
+msgstr ""
+
+msgid "Syntax"
+msgstr "বাক্য গঠন"
+
+msgid "TB"
+msgstr "টিবি (TB)"
+
+msgid "Table"
+msgstr "টেবিল"
+
+msgid "Table of contents"
+msgstr "সুচিপত্র"
+
+msgid "Table views"
+msgstr "টেবিল ভিউ"
+
+msgid "Tags"
+msgstr "ট্যাগ"
+
+msgid "Text"
+msgstr "পাঠ্য"
+
+msgid "Text documents"
+msgstr "পাঠ্য নথি"
+
+msgid "Text editors"
+msgstr "টেক্সট সম্পাদক"
+
+msgid "Text files"
+msgstr "পাঠ্য ফাইল"
+
+msgid "Thanks"
+msgstr "ধন্যবাদ"
+
+msgid "The file is not signed"
+msgstr "ফাইলটি স্বাক্ষরিত নয়"
+
+msgid "The file is signed and the signature was verified"
+msgstr "ফাইলটি স্বাক্ষরিত এবং স্বাক্ষর যাচাই করা হয়েছে"
+
+msgid "The signature error"
+msgstr "স্বাক্ষর ত্রুটি"
+
+msgid "The signature is present, but not trusted"
+msgstr "স্বাক্ষর বর্তমান, কিন্তু বিশ্বস্ত নয়"
+
+msgid "The signature is present, but specifically disallowed"
+msgstr "স্বাক্ষর উপস্থিত আছে, কিন্তু বিশেষভাবে অননুমোদিত"
+
+msgid "The value copied to clipboard"
+msgstr "মানটি ক্লিপবোর্ডে অনুলিপি করা হয়েছে"
+
+msgid "Threads"
+msgstr "থ্রেডগুলো (Threads)"
+
+msgid "TiB"
+msgstr "টিআইবি (tebibyte)"
+
+msgid "Time"
+msgstr "সময়"
+
+msgid "Time date stamp"
+msgstr "সময় তারিখ স্ট্যাম্প"
+
+msgid "Toggle"
+msgstr "টগল (Toggle)"
+
+msgid "Tool"
+msgstr "টুল"
+
+msgid "Tools"
+msgstr "টুলস"
+
+msgid "Total"
+msgstr "মোট"
+
+msgid "Trace"
+msgstr "ট্রেস (Trace)"
+
+msgid "Trace into"
+msgstr "ট্রেসে প্রবেশ"
+
+msgid "Trace over"
+msgstr "ট্রেস ওভার"
+
+msgid "Tree"
+msgstr "ট্রি"
+
+msgid "Tree views"
+msgstr "ট্রি ভিউ"
+
+msgid "Trojan"
+msgstr "ট্রোজান"
+
+msgid "Two operands"
+msgstr "দুটি অপারেন্ড"
+
+msgid "Type"
+msgstr "টাইপ"
+
+msgid "Unicode"
+msgstr ""
+
+msgid "Universal"
+msgstr ""
+
+msgid "Unknown"
+msgstr "অজানা"
+
+msgid "Unpack"
+msgstr "আনপ্যাক"
+
+msgid "Unsigned"
+msgstr "অস্বাক্ষরিত"
+
+msgid "Update information"
+msgstr "হালনাগাদ তথ্য"
+
+msgid "Upload the file for analyze?"
+msgstr "বিশ্লেষণের জন্য ফাইল আপলোড করবেন?"
+
+msgid "Upper"
+msgstr "উপরের"
+
+msgid "Uppercase"
+msgstr "বড় হাতের অক্ষর"
+
+msgid "Value"
+msgstr "মান"
+
+msgid "Values"
+msgstr "মানগুলো"
+
+msgid "Variable"
+msgstr "পরিবর্তনশীল"
+
+msgid "Verbose"
+msgstr "ভার্বোস"
+
+msgid "Version"
+msgstr "সংস্করণ"
+
+msgid "Video"
+msgstr "ভিডিও"
+
+msgid "View"
+msgstr "দেখুন"
+
+msgid "Viewer"
+msgstr "দর্শক"
+
+msgid "Virtual address"
+msgstr "ভার্চুয়াল ঠিকানা"
+
+msgid "Virtual machine"
+msgstr "ভার্চুয়াল মেশিন"
+
+msgid "Virtual size"
+msgstr "ভার্চুয়াল আকার"
+
+msgid "Virus"
+msgstr "ভাইরাস"
+
+msgid "Visualization"
+msgstr "Візуалізація"
+
+msgid "Warning"
+msgstr "সতর্কতা"
+
+msgid "Weak binding"
+msgstr "দুর্বল বাঁধাই"
+
+msgid "Website"
+msgstr "ওয়েবসাইট"
+
+msgid "Width"
+msgstr "প্রস্থ"
+
+msgid "Wildcard"
+msgstr "ওয়াইল্ডকার্ড"
+
+msgid "Write error"
+msgstr "ভুল লিখুন"
+
+msgid "Zeros"
+msgstr "শূন্য"
+
+msgid "Zoom"
+msgstr "জুম"
+
+msgid "data"
+msgstr "উপাত্ত"
+
+msgid "extender"
+msgstr "প্রসারক"
+
+msgid "false"
+msgstr "মিথ্যা"
+
+msgid "kB"
+msgstr "কে বি (কিলোবাইট)"
+
+msgid "msec"
+msgstr "মিলিসেকেন্ড"
+
+msgid "not packed"
+msgstr "বস্তাবন্দী না"
+
+msgid "packed"
+msgstr "বস্তাবন্দী"
+
+msgid "true"
+msgstr "সত্য"
+
+
+
+
+
+
+
+
+
+
+
+

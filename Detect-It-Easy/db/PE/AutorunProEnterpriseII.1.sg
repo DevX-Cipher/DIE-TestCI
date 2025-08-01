@@ -1,0 +1,16 @@
+// Author KDSS-Research
+
+init("installer", "Autorun Pro Enterprise II");
+
+function detect() {
+    var rsrcSection = PE.section[".rsrc"],
+        codeSection = PE.section["CODE"];
+
+    if (rsrcSection && codeSection) {
+        bDetected =
+            PE.findString(codeSection.FileOffset, codeSection.FileSize, "TAutoRunProjectX") !== -1 &&
+            PE.findString(rsrcSection.FileOffset, rsrcSection.FileSize, "AutoRunObjects") !== -1
+    }
+
+    return result();
+}

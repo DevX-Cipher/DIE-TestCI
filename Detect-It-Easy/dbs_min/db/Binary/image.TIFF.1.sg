@@ -1,0 +1,57 @@
+function detect(){if(14<=Binary.getSize()){switch(bDetected=!0,Binary.read_uint32(0,_BE)){case 1296891946:var i=_BE
+sOption("BE")
+break
+case 1229531648:i=_LE
+sOption("LE")
+break
+default:bDetected=!1}if(bDetected){var e,a,r,t,n,s=Binary.read_uint32(4,i),c=Binary.read_uint16(s,i)
+for(s+=2;c--;){var o=Binary.read_uint16(s,i),b=Binary.read_uint16(s+2,i),k=Binary.read_uint32(s+4,i)
+switch(o){case 256:e=u(b)
+break
+case 257:a=u(b)
+break
+case 258:r=k*u(b)
+break
+case 259:n=u(b)
+break
+case 262:t=u(b)
+break
+case 271:sOption("Make:"+u(b))
+break
+case 50706:sName="Digital Negative (.DNG)"}s+=12}switch(n){case 1:sOption("Uncompressed")
+break
+case 2:sOption("Huffman")
+break
+case 3:sOption("Group 3")
+break
+case 4:sOption("Group 4")
+break
+case 5:sOption("LZW")
+break
+case 6:sOption("embedded JPEG (602Photo software)")
+break
+case 7:sOption("JPEG")
+break
+case 32771:sOption("Alchemy software type 6 unknown compression")
+break
+case 32773:sOption("PackBits")
+break
+case 32946:sOption("Deflate")
+break
+case 34690:sOption("LDF bitonal")
+break
+case 65e3:sOption("Kodak DCR"),sName="Kodak DCS Pro SLR (.DCR)"}switch(0!=e&&0!=a&&sOption(e+"x"+a),sOption(r+"-bit "),t){case 0:sOption("W/B")
+break
+case 1:sOption("B/W")
+break
+case 2:sOption("RGB")
+break
+case 3:sOption("index")}}}function u(e){var a=0,r=0
+switch(e){case 1:break
+case 2:return r=Binary.read_uint32(s+8,i),a=Binary.getString(r,k)
+case 3:if(1==k)return a=Binary.read_uint16(s+8,i)
+for(r=Binary.read_uint32(s+8,i);k--;)a=Binary.read_uint16(r,i),r+=2
+return a
+case 4:if(1==k)return a=Binary.read_uint32(s+8,i)
+for(r=Binary.read_uint32(s+8,i);k--;)a=Binary.read_uint32(r,i),r+=4
+return a}}return result()}init("image","Tagged Image File Format (.TIFF)")

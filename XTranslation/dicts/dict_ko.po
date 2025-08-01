@@ -1,0 +1,1595 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: mirusu400\n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: ko_KR\n"
+"X-Generator: Poedit 3.1.1\n"
+
+msgid "128-bit"
+msgstr "128비트"
+
+msgid "16-bit"
+msgstr "16비트"
+
+msgid "256-bit"
+msgstr ""
+
+msgid "32-bit"
+msgstr "32비트"
+
+msgid "64-bit"
+msgstr "64비트"
+
+msgid "8-bit"
+msgstr "8비트"
+
+msgid "API key"
+msgstr "API 키"
+
+msgid "About"
+msgstr "정보"
+
+msgid "Action"
+msgstr "액션"
+
+msgid "Add"
+msgstr ""
+
+msgid "Add alignment"
+msgstr "정렬 추가"
+
+msgid "Add to context menu"
+msgstr "컨텍스트 메뉴에 추가"
+
+msgid "Address"
+msgstr "주소"
+
+msgid "Advanced"
+msgstr ""
+
+msgid "Aggressive scan"
+msgstr ""
+
+msgid "Algorithm"
+msgstr "연산"
+
+msgid "All"
+msgstr "모두"
+
+msgid "All files"
+msgstr "모든 파일"
+
+msgid "All types"
+msgstr "모든 유형"
+
+msgid "Analyze"
+msgstr "분석"
+
+msgid "Analyzed"
+msgstr ""
+
+msgid "Animate"
+msgstr "애니메이트"
+
+msgid "Appearance"
+msgstr "모양"
+
+msgid "Application"
+msgstr "애플리케이션"
+
+msgid "Architecture"
+msgstr "아키텍처"
+
+msgid "Archive"
+msgstr "아카이브"
+
+msgid "Archive record"
+msgstr "아카이브 레코드"
+
+msgid "Array"
+msgstr "Array"
+
+msgid "Arrows"
+msgstr ""
+
+msgid "Attach"
+msgstr "붙이다"
+
+msgid "Audio"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Automatic"
+msgstr "자동적 인"
+
+msgid "Background"
+msgstr ""
+
+msgid "Base"
+msgstr ""
+
+msgid "Base address"
+msgstr "기준 주소"
+
+msgid "Begin"
+msgstr "시작"
+
+msgid "Binary"
+msgstr ""
+
+msgid "Bind"
+msgstr "묶다"
+
+msgid "Binding"
+msgstr "제본"
+
+msgid "Bits"
+msgstr ""
+
+msgid "Block size"
+msgstr ""
+
+msgid "Bookmark"
+msgstr ""
+
+msgid "Bookmarks"
+msgstr ""
+
+msgid "Boot application"
+msgstr "부팅 응용 프로그램"
+
+msgid "Boot service driver"
+msgstr "부팅 서비스 드라이버"
+
+msgid "Bound import"
+msgstr "바인딩된 가져오기"
+
+msgid "Breakpoint"
+msgstr "중단점"
+
+msgid "Breakpoints"
+msgstr "중단점"
+
+msgid "Buffer size"
+msgstr ""
+
+msgid "Bugreports"
+msgstr "버그 신고"
+
+msgid "Bundle"
+msgstr ""
+
+msgid "Byte"
+msgstr "Byte"
+
+msgid "Bytes"
+msgstr "Bytes"
+
+msgid "Bytes available"
+msgstr "Bytes 존재함"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Calculate"
+msgstr "계산"
+
+msgid "Callbacks"
+msgstr "콜백"
+
+msgid "Callstack"
+msgstr "콜 스택"
+
+msgid "Cancel"
+msgstr "취소"
+
+msgid "Cannot find"
+msgstr ""
+
+msgid "Cannot find file"
+msgstr ""
+
+msgid "Cannot fix dump file"
+msgstr ""
+
+msgid "Cannot get PDB age"
+msgstr "PDB 연령을 가져올 수 없습니다."
+
+msgid "Cannot get PDB name"
+msgstr "PDB 이름을 가져올 수 없습니다."
+
+msgid "Cannot load MSDIA library"
+msgstr "MSDIA 라이브러리를 로드할 수 없습니다."
+
+msgid "Cannot load data from PDB"
+msgstr "PDB에서 데이터를 로드할 수 없습니다."
+
+msgid "Cannot load database"
+msgstr "데이터베이스를 로드할 수 없습니다."
+
+msgid "Cannot load file"
+msgstr "파일을 로드할 수 없습니다"
+
+msgid "Cannot open dump file"
+msgstr ""
+
+msgid "Cannot open file"
+msgstr "파일을 열 수 없습니다"
+
+msgid "Cannot open session"
+msgstr "세션을 열 수 없습니다"
+
+msgid "Cannot read file"
+msgstr ""
+
+msgid "Cannot read memory at address"
+msgstr "주소에서 메모리를 읽을 수 없습니다."
+
+msgid "Cannot resize"
+msgstr ""
+
+msgid "Cannot save file"
+msgstr "파일을 저장할 수 없습니다"
+
+msgid "Cannot set shortcut"
+msgstr "바로가기를 설정할 수 없습니다"
+
+msgid "Cannot write data to file"
+msgstr ""
+
+msgid "Certificate"
+msgstr "인증서"
+
+msgid "Check"
+msgstr "확인"
+
+msgid "Check updates"
+msgstr "업데이트 확인"
+
+msgid "Clear"
+msgstr "지우기"
+
+msgid "Clear result"
+msgstr ""
+
+msgid "Close"
+msgstr "닫기"
+
+msgid "Code pages"
+msgstr "코드 페이지"
+
+msgid "Code section"
+msgstr "코드 섹션"
+
+msgid "Color"
+msgstr ""
+
+msgid "Colors"
+msgstr "색상"
+
+msgid "Commands"
+msgstr "주석"
+
+msgid "Comment"
+msgstr "주석"
+
+msgid "Compact"
+msgstr ""
+
+msgid "Compiler"
+msgstr "컴파일러"
+
+msgid "Compressor"
+msgstr ""
+
+msgid "Conditional"
+msgstr ""
+
+msgid "Console"
+msgstr "콘솔"
+
+msgid "Controls"
+msgstr ""
+
+msgid "Converter"
+msgstr "변환기"
+
+msgid "Convertor"
+msgstr ""
+
+msgid "Copy"
+msgstr "복사"
+
+msgid "Copy as"
+msgstr "다른 이름으로 복사"
+
+msgid "Corrupted data"
+msgstr ""
+
+msgid "Count"
+msgstr "카운트"
+
+msgid "Creator"
+msgstr ""
+
+msgid "Crypter"
+msgstr ""
+
+msgid "Cryptor"
+msgstr "크립터"
+
+msgid "Cursor"
+msgstr "커서"
+
+msgid "Custom"
+msgstr ""
+
+msgid "Custom database"
+msgstr ""
+
+msgid "Data"
+msgstr "데이터"
+
+msgid "Data convertor"
+msgstr ""
+
+msgid "Data in code"
+msgstr "코드의 데이터"
+
+msgid "Database"
+msgstr "데이터베이스"
+
+msgid "Databases"
+msgstr ""
+
+msgid "Date"
+msgstr "날짜"
+
+msgid "Debug"
+msgstr "디버그"
+
+msgid "Debug data"
+msgstr "디버그 데이터"
+
+msgid "Debug registers"
+msgstr ""
+
+msgid "Debugger"
+msgstr "디버거"
+
+msgid "Decode"
+msgstr ""
+
+msgid "Deep scan"
+msgstr "정밀 검사"
+
+msgid "Default"
+msgstr "기본"
+
+msgid "Delay import"
+msgstr "가져오기 지연"
+
+msgid "Demangle"
+msgstr "Demangle"
+
+msgid "Dependencies"
+msgstr "종속성"
+
+msgid "Description"
+msgstr ""
+
+msgid "Detach"
+msgstr "분리"
+
+msgid "Detect"
+msgstr ""
+
+msgid "Device scan"
+msgstr "장치 검색"
+
+msgid "Diagram"
+msgstr "다이어그램"
+
+msgid "Dialog"
+msgstr ""
+
+msgid "Directory"
+msgstr "디렉토리"
+
+msgid "Directory scan"
+msgstr "디렉토리 검색"
+
+msgid "Disasm"
+msgstr "디스어셈"
+
+msgid "Document"
+msgstr "문서"
+
+msgid "Documents"
+msgstr "문서"
+
+msgid "Donate"
+msgstr "기부"
+
+msgid "Driver"
+msgstr "운전사"
+
+msgid "Dump"
+msgstr "덤프"
+
+msgid "Dump all"
+msgstr ""
+
+msgid "Dump to file"
+msgstr "파일로 덤프"
+
+msgid "Edit"
+msgstr "편집"
+
+msgid "Editor"
+msgstr "편집기"
+
+msgid "Elapsed"
+msgstr ""
+
+msgid "Encode"
+msgstr ""
+
+msgid "End"
+msgstr ""
+
+msgid "Endianness"
+msgstr "엔디언"
+
+msgid "Entropy"
+msgstr "엔트로피"
+
+msgid "Entry point"
+msgstr "진입 지점"
+
+msgid "Entry point section"
+msgstr "진입 지점 섹션"
+
+msgid "Error"
+msgstr "오류"
+
+msgid "Exceptions"
+msgstr "예외"
+
+msgid "Exit"
+msgstr "끝내기"
+
+msgid "Export"
+msgstr "내보내기"
+
+msgid "Export File Name"
+msgstr "파일 이름으로 내보내기"
+
+msgid "Export type"
+msgstr "타입 내보내기"
+
+msgid "Extender"
+msgstr ""
+
+msgid "External references"
+msgstr "외부 참조"
+
+msgid "Extra"
+msgstr ""
+
+msgid "Extra database"
+msgstr ""
+
+msgid "Extract"
+msgstr ""
+
+msgid "Extract all cursors"
+msgstr ""
+
+msgid "Extract all icons"
+msgstr ""
+
+msgid "Extractor"
+msgstr ""
+
+msgid "File"
+msgstr "파일"
+
+msgid "File info"
+msgstr "파일 정보"
+
+msgid "File name"
+msgstr "파일 이름"
+
+msgid "File offset"
+msgstr "파일 오프셋"
+
+msgid "File saved"
+msgstr "파일이 저장됨"
+
+msgid "File scan"
+msgstr "파일 검색"
+
+msgid "File size"
+msgstr ""
+
+msgid "File type"
+msgstr "파일 타입"
+
+msgid "Files"
+msgstr "파일"
+
+msgid "Filter"
+msgstr "필터"
+
+msgid "Find"
+msgstr "찾기"
+
+msgid "First"
+msgstr ""
+
+msgid "Fix offsets"
+msgstr "오프셋 수정"
+
+msgid "Fix types"
+msgstr "타입 수정"
+
+msgid "Flags"
+msgstr "플래그"
+
+msgid "Flags register"
+msgstr ""
+
+msgid "Folder"
+msgstr "폴더"
+
+msgid "Follow in"
+msgstr ""
+
+msgid "Follow me"
+msgstr ""
+
+msgid "Fonts"
+msgstr ""
+
+msgid "Footer"
+msgstr ""
+
+msgid "Form"
+msgstr "형태"
+
+msgid "Format"
+msgstr "형식"
+
+msgid "Format result"
+msgstr ""
+
+msgid "Full"
+msgstr ""
+
+msgid "Full screen"
+msgstr ""
+
+msgid "Function enter"
+msgstr ""
+
+msgid "Function leave"
+msgstr ""
+
+msgid "Functions"
+msgstr "함수"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "General registers"
+msgstr ""
+
+msgid "Generic"
+msgstr "일반"
+
+msgid "Get"
+msgstr "가져오기"
+
+msgid "Get element"
+msgstr "요소 가져오기"
+
+msgid "GiB"
+msgstr "GiB"
+
+msgid "Go to"
+msgstr "이동"
+
+msgid "Go to address"
+msgstr "주소로 이동"
+
+msgid "Go to download page?"
+msgstr ""
+
+msgid "Gradient"
+msgstr ""
+
+msgid "Grid"
+msgstr "그리드"
+
+msgid "Group"
+msgstr ""
+
+msgid "Handles"
+msgstr "핸들"
+
+msgid "Hardware"
+msgstr ""
+
+msgid "Hash"
+msgstr "해시"
+
+msgid "Header"
+msgstr "헤더"
+
+msgid "Height"
+msgstr ""
+
+msgid "Help"
+msgstr "도움말"
+
+msgid "Heuristic"
+msgstr "휴리스틱"
+
+msgid "Heuristic scan"
+msgstr "휴리스틱 검색"
+
+msgid "Heuristics"
+msgstr ""
+
+msgid "Hex"
+msgstr "헥스"
+
+msgid "Hide unknown"
+msgstr ""
+
+msgid "Highlight"
+msgstr "하이라이트"
+
+msgid "Highlights"
+msgstr ""
+
+msgid "Image"
+msgstr "이미지"
+
+msgid "Images"
+msgstr "이미지"
+
+msgid "Import"
+msgstr "가져오기"
+
+msgid "Import hash"
+msgstr "해시 가져오기"
+
+msgid "Indirect symbols"
+msgstr "간접 심볼"
+
+msgid "Info"
+msgstr "정보"
+
+msgid "Information"
+msgstr "정보"
+
+msgid "Input"
+msgstr "입력"
+
+msgid "Inspector"
+msgstr ""
+
+msgid "Installer"
+msgstr "인스톨러"
+
+msgid "Installer data"
+msgstr "인스톨러 데이터"
+
+msgid "Instruction pointer register"
+msgstr ""
+
+msgid "Interpreter"
+msgstr "인터프리터"
+
+msgid "Invalid"
+msgstr "무효함"
+
+msgid "Invalid font"
+msgstr ""
+
+msgid "Invalid handle"
+msgstr ""
+
+msgid "Invalid offset"
+msgstr ""
+
+msgid "Invalid opcode"
+msgstr "유효하지 않은 옵코드"
+
+msgid "Invalid signature"
+msgstr "유효하지 않은 시그니처"
+
+msgid "Invalid size"
+msgstr ""
+
+msgid "Issuer"
+msgstr "발급사"
+
+msgid "Joiner"
+msgstr "병합기"
+
+msgid "Keep size"
+msgstr "크기 유지"
+
+msgid "KiB"
+msgstr "KiB"
+
+msgid "Language"
+msgstr "언어"
+
+msgid "Last"
+msgstr ""
+
+msgid "Lazy binding"
+msgstr "지연 바인딩"
+
+msgid "Length"
+msgstr "길이"
+
+msgid "Libraries"
+msgstr "라이브러리"
+
+msgid "Library"
+msgstr "라이브러리"
+
+msgid "Library name"
+msgstr "라이브러리 이름"
+
+msgid "Licensing"
+msgstr ""
+
+msgid "Linker"
+msgstr "링커"
+
+msgid "Links"
+msgstr "링크"
+
+msgid "List"
+msgstr ""
+
+msgid "Load"
+msgstr ""
+
+msgid "Load config"
+msgstr "구성 로드"
+
+msgid "Loader"
+msgstr ""
+
+msgid "Local relocation"
+msgstr "지역 이전"
+
+msgid "Location"
+msgstr ""
+
+msgid "Log"
+msgstr "로그"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "Main"
+msgstr ""
+
+msgid "Main module"
+msgstr ""
+
+msgid "MainWindow"
+msgstr "메인 윈도우"
+
+msgid "Malware"
+msgstr ""
+
+msgid "Manifest"
+msgstr "Manifest"
+
+msgid "Map"
+msgstr ""
+
+msgid "Maps"
+msgstr ""
+
+msgid "Mask"
+msgstr ""
+
+msgid "Match case"
+msgstr "대소문자 구분"
+
+msgid "Matches"
+msgstr ""
+
+msgid "Maximum"
+msgstr "최대"
+
+msgid "Memory"
+msgstr "메모리"
+
+msgid "Memory map"
+msgstr "메모리 맵"
+
+msgid "Memory scan"
+msgstr "메모리 스캔"
+
+msgid "Metadata"
+msgstr "메타데이터"
+
+msgid "Metadata table"
+msgstr ""
+
+msgid "Method"
+msgstr "방법"
+
+msgid "Methods"
+msgstr ""
+
+msgid "MiB"
+msgstr "MiB"
+
+msgid "Min length"
+msgstr ""
+
+msgid "Mode"
+msgstr "모드"
+
+msgid "Modules"
+msgstr "모듈"
+
+msgid "More info"
+msgstr "더 많은 정보"
+
+msgid "Multiplatform"
+msgstr ""
+
+msgid "Multisearch"
+msgstr ""
+
+msgid "Name"
+msgstr "이름"
+
+msgid "Network error"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "New version available"
+msgstr ""
+
+msgid "Next"
+msgstr "다음"
+
+msgid "Next visited"
+msgstr ""
+
+msgid "No"
+msgstr "아니요"
+
+msgid "No update available"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Nothing found"
+msgstr "아무것도 찾을 수 없음"
+
+msgid "Null-terminated"
+msgstr ""
+
+msgid "Numbers"
+msgstr ""
+
+msgid "OK"
+msgstr "확인"
+
+msgid "Obfuscator"
+msgstr ""
+
+msgid "Object"
+msgstr "오브젝트"
+
+msgid "Objects"
+msgstr ""
+
+msgid "Offset"
+msgstr "오프셋"
+
+msgid "One operand"
+msgstr "One operand"
+
+msgid "Online tools"
+msgstr "온라인 도구"
+
+msgid "Opcode"
+msgstr "옵코드"
+
+msgid "Opcode group"
+msgstr "옵코드 그룹"
+
+msgid "Opcodes"
+msgstr "옵코드"
+
+msgid "Open"
+msgstr "열기"
+
+msgid "Open directory"
+msgstr "디렉터리 열기"
+
+msgid "Open file"
+msgstr "파일 열기"
+
+msgid "Operation system"
+msgstr "운영 시스템"
+
+msgid "Options"
+msgstr "옵션"
+
+msgid "Output"
+msgstr ""
+
+msgid "Overlay"
+msgstr "오버레이"
+
+msgid "Package"
+msgstr ""
+
+msgid "Packer"
+msgstr "패커"
+
+msgid "Patch"
+msgstr ""
+
+msgid "Pause"
+msgstr "정지시키다"
+
+msgid "Paused"
+msgstr ""
+
+msgid "Payload"
+msgstr ""
+
+msgid "Personal data"
+msgstr ""
+
+msgid "Plain Text"
+msgstr ""
+
+msgid "Platform"
+msgstr ""
+
+msgid "Player"
+msgstr "플레이어"
+
+msgid "Please restart the application"
+msgstr "프로그램을 재시작하세요"
+
+msgid "Please run the program as an administrator"
+msgstr "프로그램을 관리자로 실행해주세요"
+
+msgid "Please use valid API key"
+msgstr "올바른 API키를 입력해 주세요"
+
+msgid "Pointer"
+msgstr "포인터"
+
+msgid "Position"
+msgstr ""
+
+msgid "Previous visited"
+msgstr ""
+
+msgid "Print"
+msgstr "프린트"
+
+msgid "Process"
+msgstr "프로세스"
+
+msgid "Producer"
+msgstr ""
+
+msgid "Profiling"
+msgstr ""
+
+msgid "Program name"
+msgstr "프로그램 이름"
+
+msgid "Programs"
+msgstr "프로그램들"
+
+msgid "Protection"
+msgstr "보호"
+
+msgid "Protector"
+msgstr "프로텍터"
+
+msgid "Protector data"
+msgstr "프로텍터 데이터"
+
+msgid "Prototype"
+msgstr "프로토타입"
+
+msgid "Publisher"
+msgstr "발행자"
+
+msgid "Raw data"
+msgstr "로우 데이터"
+
+msgid "Read error"
+msgstr "읽기 오류"
+
+msgid "Readonly"
+msgstr "읽기 전용"
+
+msgid "Rebase"
+msgstr "리베이스"
+
+msgid "Recent files"
+msgstr "최근 파일"
+
+msgid "Recursive"
+msgstr "재귀적"
+
+msgid "Recursive scan"
+msgstr "재귀적 검색"
+
+msgid "References"
+msgstr ""
+
+msgid "Region"
+msgstr "지역"
+
+msgid "Regions"
+msgstr "영역"
+
+msgid "Register"
+msgstr "레지스터"
+
+msgid "Registers"
+msgstr ""
+
+msgid "Regular expression"
+msgstr ""
+
+msgid "Relative address"
+msgstr "상대 주소"
+
+msgid "Relative virtual address"
+msgstr "상대적 가상 주소(RVA)"
+
+msgid "Reload"
+msgstr "다시 불러오기"
+
+msgid "Relocs"
+msgstr "다시 할당하기"
+
+msgid "Remove"
+msgstr ""
+
+msgid "Rescan"
+msgstr "다시 스캔"
+
+msgid "Resize"
+msgstr ""
+
+msgid "Resource"
+msgstr "자원"
+
+msgid "Resources"
+msgstr "리소스"
+
+msgid "Restart"
+msgstr "재시작"
+
+msgid "Result"
+msgstr "결과"
+
+msgid "Rule name"
+msgstr ""
+
+msgid "Rules"
+msgstr ""
+
+msgid "Run"
+msgstr "운영"
+
+msgid "Run path"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "Runtime driver"
+msgstr "런타임 드라이버"
+
+msgid "Save"
+msgstr "저장"
+
+msgid "Save as"
+msgstr "다른 이름으로 저장"
+
+msgid "Save backup"
+msgstr "백업 저장"
+
+msgid "Save diagram"
+msgstr "도표 저장"
+
+msgid "Save dump"
+msgstr "덤프 저장"
+
+msgid "Save file"
+msgstr "파일 저장"
+
+msgid "Save history"
+msgstr "히스토리 저장"
+
+msgid "Save last directory"
+msgstr "마지막 디렉터리 저장"
+
+msgid "Save result"
+msgstr "결과 저장"
+
+msgid "Scan"
+msgstr "검색"
+
+msgid "Scan after open"
+msgstr "열기 후 검색"
+
+msgid "Scan engine"
+msgstr ""
+
+msgid "Schema"
+msgstr ""
+
+msgid "Script"
+msgstr ""
+
+msgid "Scripts"
+msgstr ""
+
+msgid "Search"
+msgstr "검색"
+
+msgid "Search from"
+msgstr "다음에서 검색"
+
+msgid "Search signature"
+msgstr ""
+
+msgid "Search signatures"
+msgstr "서명 검색"
+
+msgid "Search string"
+msgstr ""
+
+msgid "Search strings"
+msgstr "문자열 검색"
+
+msgid "Search value"
+msgstr ""
+
+msgid "Search values"
+msgstr ""
+
+msgid "Section"
+msgstr "섹션"
+
+msgid "Section name"
+msgstr "섹션 이름"
+
+msgid "Sections"
+msgstr "섹션"
+
+msgid "Segment"
+msgstr "세그먼트"
+
+msgid "Segment registers"
+msgstr ""
+
+msgid "Segments"
+msgstr "세그먼트"
+
+msgid "Select"
+msgstr "선택"
+
+msgid "Selected"
+msgstr ""
+
+msgid "Selection"
+msgstr "선택"
+
+msgid "Serial number"
+msgstr "일련 번호"
+
+msgid "Shortcut"
+msgstr "Shortcut"
+
+msgid "Shortcuts"
+msgstr "바로가기"
+
+msgid "Show"
+msgstr "보여주기"
+
+msgid "Show all"
+msgstr "모두 보여주기"
+
+msgid "Show colons in addresses"
+msgstr "주소의 콜론 보이기"
+
+msgid "Show comments"
+msgstr "주석 표시"
+
+msgid "Show detects"
+msgstr "탐지 보이기"
+
+msgid "Show in"
+msgstr ""
+
+msgid "Show info"
+msgstr ""
+
+msgid "Show logo"
+msgstr "로고 표시"
+
+msgid "Show type"
+msgstr ""
+
+msgid "Show valid"
+msgstr "유효한 표시"
+
+msgid "Show version"
+msgstr ""
+
+msgid "Sign tool"
+msgstr "서명 도구"
+
+msgid "Signature"
+msgstr "시그니처"
+
+msgid "Signature name"
+msgstr ""
+
+msgid "Signatures"
+msgstr "시그니처"
+
+msgid "Signed"
+msgstr ""
+
+msgid "Single application"
+msgstr "단일 애플리케이션"
+
+msgid "Size"
+msgstr "크기"
+
+msgid "Size of image"
+msgstr "이미지 크기"
+
+msgid "Sort"
+msgstr ""
+
+msgid "Sort elements"
+msgstr "요소 정렬"
+
+msgid "Sort type"
+msgstr "정렬 유형"
+
+msgid "Sorted"
+msgstr ""
+
+msgid "Source code"
+msgstr "소스 코드"
+
+msgid "Spaces"
+msgstr "공백"
+
+msgid "Stack"
+msgstr "스택"
+
+msgid "Stack registers"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Status"
+msgstr "상태"
+
+msgid "Stay on top"
+msgstr "항상 위에 놓기"
+
+msgid "Step into"
+msgstr "들어가다"
+
+msgid "Step over"
+msgstr "넘어가다"
+
+msgid "Stop"
+msgstr "중지"
+
+msgid "String"
+msgstr "문자열"
+
+msgid "String table"
+msgstr "문자열 테이블"
+
+msgid "Strings"
+msgstr "문자열"
+
+msgid "Struct"
+msgstr "구조체"
+
+msgid "Struct and unions"
+msgstr "구조체와 공용체"
+
+msgid "Structs"
+msgstr "구조체"
+
+msgid "Stub"
+msgstr "스텁"
+
+msgid "Style"
+msgstr "스타일"
+
+msgid "Subdirectories"
+msgstr "하위 디렉토리"
+
+msgid "Subject"
+msgstr "주제"
+
+msgid "Symbol"
+msgstr "심볼"
+
+msgid "Symbol table"
+msgstr "심볼 테이블"
+
+msgid "Symbols"
+msgstr "심볼"
+
+msgid "Sync"
+msgstr ""
+
+msgid "Syntax"
+msgstr "Syntax"
+
+msgid "TB"
+msgstr "TB"
+
+msgid "Table"
+msgstr "테이블"
+
+msgid "Table of contents"
+msgstr "목차"
+
+msgid "Table views"
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid "Text"
+msgstr "텍스트"
+
+msgid "Text documents"
+msgstr "텍스트 문서"
+
+msgid "Text editors"
+msgstr ""
+
+msgid "Text files"
+msgstr "텍스트 파일"
+
+msgid "Thanks"
+msgstr "감사"
+
+msgid "The file is not signed"
+msgstr "파일이 서명되지 않았습니다."
+
+msgid "The file is signed and the signature was verified"
+msgstr "파일이 서명되고 서명이 확인되었습니다."
+
+msgid "The signature error"
+msgstr "서명 오류"
+
+msgid "The signature is present, but not trusted"
+msgstr "서명이 있지만 신뢰할 수 없음"
+
+msgid "The signature is present, but specifically disallowed"
+msgstr "서명이 있지만 특별히 허용되지 않음"
+
+msgid "The value copied to clipboard"
+msgstr ""
+
+msgid "Threads"
+msgstr "스레드"
+
+msgid "TiB"
+msgstr "TiB"
+
+msgid "Time"
+msgstr ""
+
+msgid "Time date stamp"
+msgstr "시간 날짜 스탬프"
+
+msgid "Toggle"
+msgstr "토글"
+
+msgid "Tool"
+msgstr "도구"
+
+msgid "Tools"
+msgstr "도구"
+
+msgid "Total"
+msgstr "전체"
+
+msgid "Trace"
+msgstr "트레이스"
+
+msgid "Trace into"
+msgstr ""
+
+msgid "Trace over"
+msgstr ""
+
+msgid "Tree"
+msgstr "나무"
+
+msgid "Tree views"
+msgstr ""
+
+msgid "Trojan"
+msgstr ""
+
+msgid "Two operands"
+msgstr "Two operands"
+
+msgid "Type"
+msgstr "유형"
+
+msgid "Unicode"
+msgstr ""
+
+msgid "Universal"
+msgstr ""
+
+msgid "Unknown"
+msgstr "알 수 없음"
+
+msgid "Unpack"
+msgstr ""
+
+msgid "Unsigned"
+msgstr ""
+
+msgid "Update information"
+msgstr ""
+
+msgid "Upload the file for analyze?"
+msgstr "분석을 위해 파일을 업로드 하시겠습니까?"
+
+msgid "Upper"
+msgstr "위쪽"
+
+msgid "Uppercase"
+msgstr "대문자"
+
+msgid "Value"
+msgstr "값"
+
+msgid "Values"
+msgstr ""
+
+msgid "Variable"
+msgstr "변수"
+
+msgid "Verbose"
+msgstr ""
+
+msgid "Version"
+msgstr "버전"
+
+msgid "Video"
+msgstr ""
+
+msgid "View"
+msgstr "보다"
+
+msgid "Viewer"
+msgstr "뷰어"
+
+msgid "Virtual address"
+msgstr "가상 주소"
+
+msgid "Virtual machine"
+msgstr "가상 기기"
+
+msgid "Virtual size"
+msgstr ""
+
+msgid "Virus"
+msgstr ""
+
+msgid "Visualization"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid "Weak binding"
+msgstr "약한 바인딩"
+
+msgid "Website"
+msgstr "웹사이트"
+
+msgid "Width"
+msgstr ""
+
+msgid "Wildcard"
+msgstr "와일드카드"
+
+msgid "Write error"
+msgstr "쓰기 오류"
+
+msgid "Zeros"
+msgstr ""
+
+msgid "Zoom"
+msgstr ""
+
+msgid "data"
+msgstr "데이터"
+
+msgid "extender"
+msgstr "확장기"
+
+msgid "false"
+msgstr ""
+
+msgid "kB"
+msgstr "KB"
+
+msgid "msec"
+msgstr "msec"
+
+msgid "not packed"
+msgstr "패킹 안됨"
+
+msgid "packed"
+msgstr "패킹됨"
+
+msgid "true"
+msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+

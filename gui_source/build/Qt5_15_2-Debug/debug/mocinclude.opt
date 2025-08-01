@@ -1,0 +1,143 @@
+-IH:/Qt/5.15.2/msvc2019_64/mkspecs/win32-msvc
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/gui_source
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XMIMEWidget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XMIME
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/SpecAbstract
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/SpecAbstract/modules
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XCapstone
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XCapstone/3rdparty/Capstone/src
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XCapstone/3rdparty/Capstone/src/include
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XScanEngine
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XScanEngine/modules
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/exec
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/exec
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/exec
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/exec
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/exec
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/exec
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/exec
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/exec
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XDEX
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XPDF
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XArchive
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XArchive
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XArchive/Compress
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/formats
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XArchive/3rdparty/zlib/src
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XArchive/3rdparty/bzip2/src
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XArchive/3rdparty/lzma/src
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/images
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/images
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/images
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/images
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/images
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/images
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/video
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/video
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/audio
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/audio
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/formats
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats/formats
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XOptions
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XShortcuts
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/Binary
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Controls
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Controls
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Controls
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Controls
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Controls
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XHexView
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Controls
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatDialogs
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatDialogs
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatDialogs
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XInfoDB
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XDisasmCore
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XDisasmCore/Modules
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatDialogs
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatDialogs
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatDialogs
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatDialogs
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatDialogs
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatDialogs
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/SearchValues
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/MultiSearch
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatDialogs
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/SearchSignatures
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/SearchStrings
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatDialogs
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XOptions
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XHexEdit
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/die_widget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/die_script
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatDialogs
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XSymbolsWidget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XInfoDB
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XInfoDB
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XDataConvertorWidget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Formats
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XVisualizationWidget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/XAbstractWidgets
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/Controls
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatDialogs
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XRegionsWidget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XMemoryMapWidget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XEntropyWidget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XEntropyWidget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XQwt
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XQwt/3rdparty/qwt/src
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/nfd_widget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/yara_widget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XYara
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XYara/3rdparty/yara/include
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XYara/3rdparty/yara/src/include
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XHashWidget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XDisasmView
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XDecompiler
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XDemangleWidget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XDemangle
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XCppfilt
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XCppfilt/3rdparty/cppfilt/src
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XFileInfo
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XFileInfo
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XOnlineTools
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XExtractorWidget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XExtractor
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/MSDOS
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/ELF
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/MACH
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/MACHOFAT
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/NE
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/LE
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/PE
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets/DEX
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/archive_widget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/FormatWidgets
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XSingleApplication
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XAboutWidget
+-IC:/Users/DevX-Cipher/Desktop/New folder (3)/DIE-engine/XUpdate
+-IH:/Qt/5.15.2/msvc2019_64/include
+-IH:/Qt/5.15.2/msvc2019_64/include/QtPrintSupport
+-IH:/Qt/5.15.2/msvc2019_64/include/QtOpenGL
+-IH:/Qt/5.15.2/msvc2019_64/include/QtWidgets
+-IH:/Qt/5.15.2/msvc2019_64/include/QtGui
+-IH:/Qt/5.15.2/msvc2019_64/include/QtANGLE
+-IH:/Qt/5.15.2/msvc2019_64/include/QtDBus
+-IH:/Qt/5.15.2/msvc2019_64/include/QtNetwork
+-IH:/Qt/5.15.2/msvc2019_64/include/QtConcurrent
+-IH:/Qt/5.15.2/msvc2019_64/include/QtScriptTools
+-IH:/Qt/5.15.2/msvc2019_64/include/QtScript
+-IH:/Qt/5.15.2/msvc2019_64/include/QtCore
+-I.
+-ID:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include
+-ID:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\ATLMFC\include
+-ID:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include
+-ID:\Windows Kits\10\include\10.0.26100.0\ucrt
+-ID:\Windows Kits\10\\include\10.0.26100.0\\um
+-ID:\Windows Kits\10\\include\10.0.26100.0\\shared
+-ID:\Windows Kits\10\\include\10.0.26100.0\\winrt
+-ID:\Windows Kits\10\\include\10.0.26100.0\\cppwinrt

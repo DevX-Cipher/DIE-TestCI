@@ -1,0 +1,2 @@
+var sInterpreter,sLine,aMatch
+function isInterpreter(e){return sInterpreter==e?(sInterpreter="",1):0}void 0===sInterpreter&&(sInterpreter="",aMatch=(sLine=(sLine=Binary.getString(0)).replace(/\/env\s+/,"/")).match(/#!.*\/(.+?)(?:\.exe)?\s/))&&(sInterpreter=aMatch[1])

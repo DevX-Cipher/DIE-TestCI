@@ -1,0 +1,1 @@
+function detect(){return sName=JavaClass.getFileFormatName(),sVersion=JavaClass.getFileFormatVersion(),sOptions=JavaClass.getFileFormatOptions(),bDetected=!0,result()}init("format","JavaClass")

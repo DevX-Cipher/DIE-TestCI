@@ -1,0 +1,1593 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: ja_JP\n"
+
+msgid "128-bit"
+msgstr "128ビット"
+
+msgid "16-bit"
+msgstr "16ビット"
+
+msgid "256-bit"
+msgstr "256ビット"
+
+msgid "32-bit"
+msgstr "32ビット"
+
+msgid "64-bit"
+msgstr "64ビット"
+
+msgid "8-bit"
+msgstr "8ビット"
+
+msgid "API key"
+msgstr "APIキー"
+
+msgid "About"
+msgstr "情報"
+
+msgid "Action"
+msgstr "操作"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Add alignment"
+msgstr "パディングを追加"
+
+msgid "Add to context menu"
+msgstr "コンテキストメニューに追加"
+
+msgid "Address"
+msgstr "アドレス"
+
+msgid "Advanced"
+msgstr "高度な"
+
+msgid "Aggressive scan"
+msgstr ""
+
+msgid "Algorithm"
+msgstr "アルゴリズム"
+
+msgid "All"
+msgstr "すべて"
+
+msgid "All files"
+msgstr "すべてのファイル"
+
+msgid "All types"
+msgstr "すべての種類"
+
+msgid "Analyze"
+msgstr "分析"
+
+msgid "Analyzed"
+msgstr ""
+
+msgid "Animate"
+msgstr ""
+
+msgid "Appearance"
+msgstr "外観"
+
+msgid "Application"
+msgstr "アプリケーション"
+
+msgid "Architecture"
+msgstr "アーキテクチャ"
+
+msgid "Archive"
+msgstr "アーカイブ"
+
+msgid "Archive record"
+msgstr "アーカイブ レコード"
+
+msgid "Array"
+msgstr "配列"
+
+msgid "Arrows"
+msgstr "矢印"
+
+msgid "Attach"
+msgstr "添付"
+
+msgid "Audio"
+msgstr "オーディオ"
+
+msgid "Author"
+msgstr ""
+
+msgid "Automatic"
+msgstr "自動"
+
+msgid "Background"
+msgstr "背景"
+
+msgid "Base"
+msgstr ""
+
+msgid "Base address"
+msgstr "基準アドレス"
+
+msgid "Begin"
+msgstr "先頭"
+
+msgid "Binary"
+msgstr "バイナリ"
+
+msgid "Bind"
+msgstr "バインド"
+
+msgid "Binding"
+msgstr "バインディング"
+
+msgid "Bits"
+msgstr "Bits"
+
+msgid "Block size"
+msgstr "ブロックサイズ"
+
+msgid "Bookmark"
+msgstr "ブックマーク"
+
+msgid "Bookmarks"
+msgstr "ブックマーク"
+
+msgid "Boot application"
+msgstr "ブートアプリケーション"
+
+msgid "Boot service driver"
+msgstr "ブートサービスドライバー"
+
+msgid "Bound import"
+msgstr "バインドされたインポート"
+
+msgid "Breakpoint"
+msgstr "ブレークポイント"
+
+msgid "Breakpoints"
+msgstr "ブレークポイント"
+
+msgid "Buffer size"
+msgstr "バッファーサイズ"
+
+msgid "Bugreports"
+msgstr "バグ報告"
+
+msgid "Bundle"
+msgstr ""
+
+msgid "Byte"
+msgstr "バイト"
+
+msgid "Bytes"
+msgstr "バイト"
+
+msgid "Bytes available"
+msgstr "利用可能なバイト"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Calculate"
+msgstr "計算"
+
+msgid "Callbacks"
+msgstr "コールバック"
+
+msgid "Callstack"
+msgstr "コールスタック"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Cannot find"
+msgstr "見つけられませんでした"
+
+msgid "Cannot find file"
+msgstr "ファイルを見つけられませんでした"
+
+msgid "Cannot fix dump file"
+msgstr "ダンプを修正できませんでした"
+
+msgid "Cannot get PDB age"
+msgstr "PDBの年齢を取得できませんでした"
+
+msgid "Cannot get PDB name"
+msgstr "PDB名を取得できませんでした"
+
+msgid "Cannot load MSDIA library"
+msgstr "MSDIAライブラリを読み込めませんでした"
+
+msgid "Cannot load data from PDB"
+msgstr "PDBからデータを読み込めませんでした"
+
+msgid "Cannot load database"
+msgstr "データベースを読み込めませんでした"
+
+msgid "Cannot load file"
+msgstr "ファイルを読み込めませんでした"
+
+msgid "Cannot open dump file"
+msgstr "ダンプファイルを開けませんでした"
+
+msgid "Cannot open file"
+msgstr "ファイルを開けませんでした"
+
+msgid "Cannot open session"
+msgstr "セッションを開くことができませんでした"
+
+msgid "Cannot read file"
+msgstr "ファイルの読み込みに失敗しました"
+
+msgid "Cannot read memory at address"
+msgstr "アドレスのメモリを読み取れませんでした"
+
+msgid "Cannot resize"
+msgstr "リサイズができませんでした"
+
+msgid "Cannot save file"
+msgstr "ファイルを保存できませんでした"
+
+msgid "Cannot set shortcut"
+msgstr "ショートカットの設定に失敗しました"
+
+msgid "Cannot write data to file"
+msgstr "ファイルへのデータ書き込みに失敗しました"
+
+msgid "Certificate"
+msgstr "証明書"
+
+msgid "Check"
+msgstr "チェック"
+
+msgid "Check updates"
+msgstr "アップデートの確認"
+
+msgid "Clear"
+msgstr "消去"
+
+msgid "Clear result"
+msgstr "結果の消去"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Code pages"
+msgstr "コードページ"
+
+msgid "Code section"
+msgstr "コード セクション"
+
+msgid "Color"
+msgstr "色"
+
+msgid "Colors"
+msgstr "色"
+
+msgid "Commands"
+msgstr "コマンド"
+
+msgid "Comment"
+msgstr "コメント"
+
+msgid "Compact"
+msgstr ""
+
+msgid "Compiler"
+msgstr "コンパイラ"
+
+msgid "Compressor"
+msgstr ""
+
+msgid "Conditional"
+msgstr "条件付きの"
+
+msgid "Console"
+msgstr "コンソール"
+
+msgid "Controls"
+msgstr "コントロール"
+
+msgid "Converter"
+msgstr "コンバータ"
+
+msgid "Convertor"
+msgstr ""
+
+msgid "Copy"
+msgstr "コピー"
+
+msgid "Copy as"
+msgstr "以下をコピー"
+
+msgid "Corrupted data"
+msgstr ""
+
+msgid "Count"
+msgstr "個数"
+
+msgid "Creator"
+msgstr ""
+
+msgid "Crypter"
+msgstr ""
+
+msgid "Cryptor"
+msgstr "暗号化"
+
+msgid "Cursor"
+msgstr "カーソル"
+
+msgid "Custom"
+msgstr ""
+
+msgid "Custom database"
+msgstr "カスタム データベース"
+
+msgid "Data"
+msgstr "データ"
+
+msgid "Data convertor"
+msgstr "データ コンバーター"
+
+msgid "Data in code"
+msgstr "コードのデータ"
+
+msgid "Database"
+msgstr "データベース"
+
+msgid "Databases"
+msgstr ""
+
+msgid "Date"
+msgstr "日付"
+
+msgid "Debug"
+msgstr "デバッグ"
+
+msgid "Debug data"
+msgstr "デバッグ データ"
+
+msgid "Debug registers"
+msgstr ""
+
+msgid "Debugger"
+msgstr "デバッガ"
+
+msgid "Decode"
+msgstr "デコード"
+
+msgid "Deep scan"
+msgstr "ディープスキャン"
+
+msgid "Default"
+msgstr "標準"
+
+msgid "Delay import"
+msgstr "遅延インポート"
+
+msgid "Demangle"
+msgstr "デマングル"
+
+msgid "Dependencies"
+msgstr "依存関係"
+
+msgid "Description"
+msgstr "説明"
+
+msgid "Detach"
+msgstr "デタッチ"
+
+msgid "Detect"
+msgstr "検知"
+
+msgid "Device scan"
+msgstr "デバイスのスキャン"
+
+msgid "Diagram"
+msgstr "グラフ"
+
+msgid "Dialog"
+msgstr ""
+
+msgid "Directory"
+msgstr "ディレクトリ"
+
+msgid "Directory scan"
+msgstr "ディレクトリのスキャン"
+
+msgid "Disasm"
+msgstr "Disasm"
+
+msgid "Document"
+msgstr "ドキュメント"
+
+msgid "Documents"
+msgstr "ドキュメント"
+
+msgid "Donate"
+msgstr "寄付"
+
+msgid "Driver"
+msgstr "運転者"
+
+msgid "Dump"
+msgstr "ダンプ"
+
+msgid "Dump all"
+msgstr "全てダンプ"
+
+msgid "Dump to file"
+msgstr "ファイルにダンプ"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "Editor"
+msgstr "エディター"
+
+msgid "Elapsed"
+msgstr ""
+
+msgid "Encode"
+msgstr "エンコード"
+
+msgid "End"
+msgstr "終わり"
+
+msgid "Endianness"
+msgstr "エンディアン"
+
+msgid "Entropy"
+msgstr "エントロピー"
+
+msgid "Entry point"
+msgstr "エントリ ポイント"
+
+msgid "Entry point section"
+msgstr "エントリ ポイントセクション"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Exceptions"
+msgstr "例外"
+
+msgid "Exit"
+msgstr "終了"
+
+msgid "Export"
+msgstr "エクスポート"
+
+msgid "Export File Name"
+msgstr "ファイル名のエクスポート"
+
+msgid "Export type"
+msgstr "エクスポート種別"
+
+msgid "Extender"
+msgstr ""
+
+msgid "External references"
+msgstr "外部参照"
+
+msgid "Extra"
+msgstr ""
+
+msgid "Extra database"
+msgstr ""
+
+msgid "Extract"
+msgstr "抽出"
+
+msgid "Extract all cursors"
+msgstr "全てのカーソルを抽出"
+
+msgid "Extract all icons"
+msgstr "全てのアイコンを抽出"
+
+msgid "Extractor"
+msgstr ""
+
+msgid "File"
+msgstr "ファイル"
+
+msgid "File info"
+msgstr "ファイル情報"
+
+msgid "File name"
+msgstr "ファイル名"
+
+msgid "File offset"
+msgstr "オフセット値"
+
+msgid "File saved"
+msgstr "保存されたファイル"
+
+msgid "File scan"
+msgstr "ファイル スキャン"
+
+msgid "File size"
+msgstr "ファイル サイズ"
+
+msgid "File type"
+msgstr "ファイルの種類"
+
+msgid "Files"
+msgstr "ファイル"
+
+msgid "Filter"
+msgstr "絞り込み"
+
+msgid "Find"
+msgstr "検索"
+
+msgid "First"
+msgstr ""
+
+msgid "Fix offsets"
+msgstr "オフセットを修正"
+
+msgid "Fix types"
+msgstr "型を修正"
+
+msgid "Flags"
+msgstr "フラグ"
+
+msgid "Flags register"
+msgstr "フラグ レジスター"
+
+msgid "Folder"
+msgstr "フォルダー"
+
+msgid "Follow in"
+msgstr ""
+
+msgid "Follow me"
+msgstr ""
+
+msgid "Fonts"
+msgstr "フォント"
+
+msgid "Footer"
+msgstr "フッター"
+
+msgid "Form"
+msgstr "フォーム"
+
+msgid "Format"
+msgstr "書式"
+
+msgid "Format result"
+msgstr ""
+
+msgid "Full"
+msgstr ""
+
+msgid "Full screen"
+msgstr "フルスクリーン"
+
+msgid "Function enter"
+msgstr ""
+
+msgid "Function leave"
+msgstr ""
+
+msgid "Functions"
+msgstr "関数"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "General registers"
+msgstr "汎用レジスタ"
+
+msgid "Generic"
+msgstr "汎用"
+
+msgid "Get"
+msgstr "取得"
+
+msgid "Get element"
+msgstr "要素を取得"
+
+msgid "GiB"
+msgstr "GiB"
+
+msgid "Go to"
+msgstr "移動"
+
+msgid "Go to address"
+msgstr "アドレスに移動"
+
+msgid "Go to download page?"
+msgstr "ダウンロードページに移動しますか？"
+
+msgid "Gradient"
+msgstr ""
+
+msgid "Grid"
+msgstr "グリッド"
+
+msgid "Group"
+msgstr "グループ"
+
+msgid "Handles"
+msgstr "ハンドル"
+
+msgid "Hardware"
+msgstr "ハードウェア"
+
+msgid "Hash"
+msgstr "ハッシュ"
+
+msgid "Header"
+msgstr "ヘッダ"
+
+msgid "Height"
+msgstr "高さ"
+
+msgid "Help"
+msgstr "ヘルプ"
+
+msgid "Heuristic"
+msgstr "ヒューリスティック"
+
+msgid "Heuristic scan"
+msgstr "ヒューリスティック スキャン"
+
+msgid "Heuristics"
+msgstr ""
+
+msgid "Hex"
+msgstr "16 進数"
+
+msgid "Hide unknown"
+msgstr ""
+
+msgid "Highlight"
+msgstr "ハイライト"
+
+msgid "Highlights"
+msgstr "ハイライト"
+
+msgid "Image"
+msgstr "イメージ"
+
+msgid "Images"
+msgstr "イメージ"
+
+msgid "Import"
+msgstr "インポート"
+
+msgid "Import hash"
+msgstr "ハッシュをインポートする"
+
+msgid "Indirect symbols"
+msgstr "間接記号"
+
+msgid "Info"
+msgstr "情報"
+
+msgid "Information"
+msgstr "インフォメーション"
+
+msgid "Input"
+msgstr "入力"
+
+msgid "Inspector"
+msgstr ""
+
+msgid "Installer"
+msgstr "インストーラ"
+
+msgid "Installer data"
+msgstr "インストーラ データ"
+
+msgid "Instruction pointer register"
+msgstr "Instruction pointer レジスタ"
+
+msgid "Interpreter"
+msgstr "通訳者"
+
+msgid "Invalid"
+msgstr "無効"
+
+msgid "Invalid font"
+msgstr "無効なフォント"
+
+msgid "Invalid handle"
+msgstr "無効なハンドル"
+
+msgid "Invalid offset"
+msgstr "無効なオフセット"
+
+msgid "Invalid opcode"
+msgstr "無効な Opcode"
+
+msgid "Invalid signature"
+msgstr "無効な署名"
+
+msgid "Invalid size"
+msgstr "無効なサイズ"
+
+msgid "Issuer"
+msgstr "発行者"
+
+msgid "Joiner"
+msgstr ""
+
+msgid "Keep size"
+msgstr "サイズを保持"
+
+msgid "KiB"
+msgstr "KiB"
+
+msgid "Language"
+msgstr "言語"
+
+msgid "Last"
+msgstr ""
+
+msgid "Lazy binding"
+msgstr "遅延バインディング"
+
+msgid "Length"
+msgstr "長さ"
+
+msgid "Libraries"
+msgstr "ライブラリ"
+
+msgid "Library"
+msgstr "ライブラリ"
+
+msgid "Library name"
+msgstr "ライブラリ名"
+
+msgid "Licensing"
+msgstr ""
+
+msgid "Linker"
+msgstr "リンカ"
+
+msgid "Links"
+msgstr "リンク"
+
+msgid "List"
+msgstr "リスト"
+
+msgid "Load"
+msgstr ""
+
+msgid "Load config"
+msgstr "構成を読み込み"
+
+msgid "Loader"
+msgstr ""
+
+msgid "Local relocation"
+msgstr "ローカル再割り当て"
+
+msgid "Location"
+msgstr "配置"
+
+msgid "Log"
+msgstr "ログ"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "Main"
+msgstr ""
+
+msgid "Main module"
+msgstr ""
+
+msgid "MainWindow"
+msgstr "MainWindow"
+
+msgid "Malware"
+msgstr "マルウェア"
+
+msgid "Manifest"
+msgstr "Manifest"
+
+msgid "Map"
+msgstr ""
+
+msgid "Maps"
+msgstr ""
+
+msgid "Mask"
+msgstr ""
+
+msgid "Match case"
+msgstr "大文字小文字を区別"
+
+msgid "Matches"
+msgstr ""
+
+msgid "Maximum"
+msgstr "最大"
+
+msgid "Memory"
+msgstr "メモリー"
+
+msgid "Memory map"
+msgstr "メモリ マップ"
+
+msgid "Memory scan"
+msgstr "メモリスキャン"
+
+msgid "Metadata"
+msgstr "メタデータ"
+
+msgid "Metadata table"
+msgstr ""
+
+msgid "Method"
+msgstr "方法"
+
+msgid "Methods"
+msgstr ""
+
+msgid "MiB"
+msgstr "MiB"
+
+msgid "Min length"
+msgstr ""
+
+msgid "Mode"
+msgstr "モード"
+
+msgid "Modules"
+msgstr "モジュール"
+
+msgid "More info"
+msgstr "詳細情報"
+
+msgid "Multiplatform"
+msgstr "マルチプラットフォーム"
+
+msgid "Multisearch"
+msgstr ""
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Network error"
+msgstr "ネットワークエラー"
+
+msgid "New"
+msgstr "新規"
+
+msgid "New version available"
+msgstr "新バージョンが利用可能です"
+
+msgid "Next"
+msgstr "次"
+
+msgid "Next visited"
+msgstr ""
+
+msgid "No"
+msgstr "なし"
+
+msgid "No update available"
+msgstr "アップデートはありません"
+
+msgid "None"
+msgstr ""
+
+msgid "Nothing found"
+msgstr "見つかりません"
+
+msgid "Null-terminated"
+msgstr "null終端文字"
+
+msgid "Numbers"
+msgstr "数字"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Obfuscator"
+msgstr ""
+
+msgid "Object"
+msgstr "オブジェクト"
+
+msgid "Objects"
+msgstr ""
+
+msgid "Offset"
+msgstr "オフセット"
+
+msgid "One operand"
+msgstr "1オペランド"
+
+msgid "Online tools"
+msgstr "オンラインツール"
+
+msgid "Opcode"
+msgstr "Opcode"
+
+msgid "Opcode group"
+msgstr "Opcodeグループ"
+
+msgid "Opcodes"
+msgstr "Opcodes"
+
+msgid "Open"
+msgstr "開く"
+
+msgid "Open directory"
+msgstr "ディレクトリを開く"
+
+msgid "Open file"
+msgstr "ファイルを開く"
+
+msgid "Operation system"
+msgstr "オペレーション システム"
+
+msgid "Options"
+msgstr "設定"
+
+msgid "Output"
+msgstr "出力"
+
+msgid "Overlay"
+msgstr "オーバーレイ"
+
+msgid "Package"
+msgstr "パッケージ"
+
+msgid "Packer"
+msgstr "パッカー"
+
+msgid "Patch"
+msgstr "パッチ"
+
+msgid "Pause"
+msgstr "一時停止"
+
+msgid "Paused"
+msgstr "一時停止中"
+
+msgid "Payload"
+msgstr ""
+
+msgid "Personal data"
+msgstr ""
+
+msgid "Plain Text"
+msgstr "プレーンテキスト"
+
+msgid "Platform"
+msgstr "プラットフォーム"
+
+msgid "Player"
+msgstr "プレイヤー"
+
+msgid "Please restart the application"
+msgstr "プログラムを再起動してください"
+
+msgid "Please run the program as an administrator"
+msgstr "管理者としてプログラムを実行してください"
+
+msgid "Please use valid API key"
+msgstr "有効なAPIキーを使用してください"
+
+msgid "Pointer"
+msgstr "ポインタ"
+
+msgid "Position"
+msgstr ""
+
+msgid "Previous visited"
+msgstr ""
+
+msgid "Print"
+msgstr "印刷"
+
+msgid "Process"
+msgstr "プロセス"
+
+msgid "Producer"
+msgstr ""
+
+msgid "Profiling"
+msgstr ""
+
+msgid "Program name"
+msgstr "プログラム名"
+
+msgid "Programs"
+msgstr "プログラム"
+
+msgid "Protection"
+msgstr "保護"
+
+msgid "Protector"
+msgstr "プロテクタ"
+
+msgid "Protector data"
+msgstr "プロテクタ データ"
+
+msgid "Prototype"
+msgstr "プロトタイプ"
+
+msgid "Publisher"
+msgstr "開発者"
+
+msgid "Raw data"
+msgstr "Raw データ"
+
+msgid "Read error"
+msgstr "読み取りエラー"
+
+msgid "Readonly"
+msgstr "読み取り専用"
+
+msgid "Rebase"
+msgstr "リベース"
+
+msgid "Recent files"
+msgstr "最近使ったファイル"
+
+msgid "Recursive"
+msgstr "再帰的"
+
+msgid "Recursive scan"
+msgstr "ファイル スキャン"
+
+msgid "References"
+msgstr "参照"
+
+msgid "Region"
+msgstr "領域"
+
+msgid "Regions"
+msgstr "領域"
+
+msgid "Register"
+msgstr "レジスタ"
+
+msgid "Registers"
+msgstr "レジスタ"
+
+msgid "Regular expression"
+msgstr ""
+
+msgid "Relative address"
+msgstr "相対アドレス"
+
+msgid "Relative virtual address"
+msgstr "相対仮想ADD"
+
+msgid "Reload"
+msgstr "再読み込み"
+
+msgid "Relocs"
+msgstr "再配置"
+
+msgid "Remove"
+msgstr "削除"
+
+msgid "Rescan"
+msgstr "再スキャン"
+
+msgid "Resize"
+msgstr "リサイズ"
+
+msgid "Resource"
+msgstr "リソース"
+
+msgid "Resources"
+msgstr "リソース"
+
+msgid "Restart"
+msgstr "再起動"
+
+msgid "Result"
+msgstr "結果"
+
+msgid "Rule name"
+msgstr ""
+
+msgid "Rules"
+msgstr "ルール"
+
+msgid "Run"
+msgstr "実行"
+
+msgid "Run path"
+msgstr ""
+
+msgid "Running"
+msgstr "実行中"
+
+msgid "Runtime driver"
+msgstr "ランタイムドライバー"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Save as"
+msgstr "名前を付けて保存"
+
+msgid "Save backup"
+msgstr "バックアップを保存"
+
+msgid "Save diagram"
+msgstr "グラフを保存"
+
+msgid "Save dump"
+msgstr "ダンプを保存"
+
+msgid "Save file"
+msgstr "保存"
+
+msgid "Save history"
+msgstr "履歴を保存"
+
+msgid "Save last directory"
+msgstr "最後に使ったフォルダ保存"
+
+msgid "Save result"
+msgstr "結果を保存"
+
+msgid "Scan"
+msgstr "スキャン"
+
+msgid "Scan after open"
+msgstr "開いたらすぐスキャン開始"
+
+msgid "Scan engine"
+msgstr ""
+
+msgid "Schema"
+msgstr "スキーマ"
+
+msgid "Script"
+msgstr "スクリプト"
+
+msgid "Scripts"
+msgstr "スクリプト"
+
+msgid "Search"
+msgstr "検索"
+
+msgid "Search from"
+msgstr "検索開始位置"
+
+msgid "Search signature"
+msgstr ""
+
+msgid "Search signatures"
+msgstr "署名"
+
+msgid "Search string"
+msgstr ""
+
+msgid "Search strings"
+msgstr "文字列を検索"
+
+msgid "Search value"
+msgstr ""
+
+msgid "Search values"
+msgstr "値を検索する"
+
+msgid "Section"
+msgstr "セクション"
+
+msgid "Section name"
+msgstr "セクション名"
+
+msgid "Sections"
+msgstr "セクション"
+
+msgid "Segment"
+msgstr "セグメント"
+
+msgid "Segment registers"
+msgstr "セグメントレジスタ"
+
+msgid "Segments"
+msgstr "セグメント"
+
+msgid "Select"
+msgstr "選択"
+
+msgid "Selected"
+msgstr "選択中"
+
+msgid "Selection"
+msgstr "選択"
+
+msgid "Serial number"
+msgstr "シリアルナンバー"
+
+msgid "Shortcut"
+msgstr "ショートカット"
+
+msgid "Shortcuts"
+msgstr "ショートカット"
+
+msgid "Show"
+msgstr "表示"
+
+msgid "Show all"
+msgstr "すべて表示"
+
+msgid "Show colons in addresses"
+msgstr "アドレス内にコロンを表示"
+
+msgid "Show comments"
+msgstr "コメントを表示"
+
+msgid "Show detects"
+msgstr "検出済みを表示"
+
+msgid "Show in"
+msgstr ""
+
+msgid "Show info"
+msgstr ""
+
+msgid "Show logo"
+msgstr "ロゴを表示"
+
+msgid "Show type"
+msgstr "型を表示"
+
+msgid "Show valid"
+msgstr "有効を表示"
+
+msgid "Show version"
+msgstr "バージョンを表示"
+
+msgid "Sign tool"
+msgstr "署名ツール"
+
+msgid "Signature"
+msgstr "署名"
+
+msgid "Signature name"
+msgstr ""
+
+msgid "Signatures"
+msgstr "署名"
+
+msgid "Signed"
+msgstr "署名済み"
+
+msgid "Single application"
+msgstr "単一のアプリケーション"
+
+msgid "Size"
+msgstr "サイズ"
+
+msgid "Size of image"
+msgstr "画像のサイズ"
+
+msgid "Sort"
+msgstr ""
+
+msgid "Sort elements"
+msgstr "要素を並べ替える"
+
+msgid "Sort type"
+msgstr "並び替え種別"
+
+msgid "Sorted"
+msgstr "並び替え済み"
+
+msgid "Source code"
+msgstr "ソース コード"
+
+msgid "Spaces"
+msgstr "スペース"
+
+msgid "Stack"
+msgstr "スタック"
+
+msgid "Stack registers"
+msgstr "スタックレジスタ"
+
+msgid "Start"
+msgstr "開始"
+
+msgid "Status"
+msgstr "状態"
+
+msgid "Stay on top"
+msgstr "常に最前面表示"
+
+msgid "Step into"
+msgstr "ステップ イン"
+
+msgid "Step over"
+msgstr "ステップ オーバー"
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "String"
+msgstr "文字列"
+
+msgid "String table"
+msgstr "文字列テーブル"
+
+msgid "Strings"
+msgstr "文字列"
+
+msgid "Struct"
+msgstr "構造体"
+
+msgid "Struct and unions"
+msgstr "構造体と共用体"
+
+msgid "Structs"
+msgstr "構造体"
+
+msgid "Stub"
+msgstr "Stub"
+
+msgid "Style"
+msgstr "スタイル"
+
+msgid "Subdirectories"
+msgstr "サブディレクトリ"
+
+msgid "Subject"
+msgstr "主題"
+
+msgid "Symbol"
+msgstr "シンボル"
+
+msgid "Symbol table"
+msgstr "シンボル テーブル"
+
+msgid "Symbols"
+msgstr "シンボル"
+
+msgid "Sync"
+msgstr ""
+
+msgid "Syntax"
+msgstr "構文"
+
+msgid "TB"
+msgstr "TB"
+
+msgid "Table"
+msgstr "テーブル"
+
+msgid "Table of contents"
+msgstr "目次"
+
+msgid "Table views"
+msgstr "テーブルビュー"
+
+msgid "Tags"
+msgstr "タグ"
+
+msgid "Text"
+msgstr "文字"
+
+msgid "Text documents"
+msgstr "テキスト文書"
+
+msgid "Text editors"
+msgstr "テキストエディター"
+
+msgid "Text files"
+msgstr "テキスト ファイル"
+
+msgid "Thanks"
+msgstr "謝辞"
+
+msgid "The file is not signed"
+msgstr "ファイルは署名されていません"
+
+msgid "The file is signed and the signature was verified"
+msgstr "ファイルが署名され、署名が検証されました"
+
+msgid "The signature error"
+msgstr "署名エラー"
+
+msgid "The signature is present, but not trusted"
+msgstr "署名は存在しますが、信頼されていません"
+
+msgid "The signature is present, but specifically disallowed"
+msgstr "署名は存在しますが、特に許可されていません"
+
+msgid "The value copied to clipboard"
+msgstr "クリップボードに値をコピーしました"
+
+msgid "Threads"
+msgstr "スレッド"
+
+msgid "TiB"
+msgstr "TiB"
+
+msgid "Time"
+msgstr "時間"
+
+msgid "Time date stamp"
+msgstr "日付スタンプ"
+
+msgid "Toggle"
+msgstr "トグル"
+
+msgid "Tool"
+msgstr "ツール"
+
+msgid "Tools"
+msgstr "ツール"
+
+msgid "Total"
+msgstr "合計"
+
+msgid "Trace"
+msgstr "追跡"
+
+msgid "Trace into"
+msgstr ""
+
+msgid "Trace over"
+msgstr ""
+
+msgid "Tree"
+msgstr "ツリー"
+
+msgid "Tree views"
+msgstr "ツリービュー"
+
+msgid "Trojan"
+msgstr "トロイの木馬"
+
+msgid "Two operands"
+msgstr "2オペランド"
+
+msgid "Type"
+msgstr "種類"
+
+msgid "Unicode"
+msgstr "ユニコード"
+
+msgid "Universal"
+msgstr "ユニバーサル"
+
+msgid "Unknown"
+msgstr "不明"
+
+msgid "Unpack"
+msgstr "アンパック"
+
+msgid "Unsigned"
+msgstr "署名なし"
+
+msgid "Update information"
+msgstr "情報を更新する"
+
+msgid "Upload the file for analyze?"
+msgstr "分析のためにファイルをアップロードしますか?"
+
+msgid "Upper"
+msgstr "大文字"
+
+msgid "Uppercase"
+msgstr "大文字"
+
+msgid "Value"
+msgstr "値"
+
+msgid "Values"
+msgstr "値"
+
+msgid "Variable"
+msgstr "変数"
+
+msgid "Verbose"
+msgstr "冗長な"
+
+msgid "Version"
+msgstr "バージョン"
+
+msgid "Video"
+msgstr "動画"
+
+msgid "View"
+msgstr "表示"
+
+msgid "Viewer"
+msgstr "ビューア"
+
+msgid "Virtual address"
+msgstr "仮想アドレス"
+
+msgid "Virtual machine"
+msgstr "仮想マシン"
+
+msgid "Virtual size"
+msgstr "仮想サイズ"
+
+msgid "Virus"
+msgstr "ウイルス"
+
+msgid "Visualization"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid "Weak binding"
+msgstr "弱い結合"
+
+msgid "Website"
+msgstr "Webサイト"
+
+msgid "Width"
+msgstr "幅"
+
+msgid "Wildcard"
+msgstr "ワイルドカード"
+
+msgid "Write error"
+msgstr "書き込みエラー"
+
+msgid "Zeros"
+msgstr "ゼロ"
+
+msgid "Zoom"
+msgstr ""
+
+msgid "data"
+msgstr "データ"
+
+msgid "extender"
+msgstr "エクステンダ"
+
+msgid "false"
+msgstr "false"
+
+msgid "kB"
+msgstr "kB"
+
+msgid "msec"
+msgstr "ミリ秒"
+
+msgid "not packed"
+msgstr "パックなし"
+
+msgid "packed"
+msgstr "パック済み"
+
+msgid "true"
+msgstr "true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

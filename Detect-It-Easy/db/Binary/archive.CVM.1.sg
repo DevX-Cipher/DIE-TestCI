@@ -1,0 +1,15 @@
+// Detect It Easy: detection rule file
+// Author: BJNFNE <bjnfne@web.de>
+// This Script supports following formats: CVM
+// Used by PlayStation 2 games
+
+init("archive", "CVM");
+
+function detect() {
+    if (Binary.compare("'CVMH'")) {
+        sName = "CRI ROFS";
+        bDetected = true;
+    }
+
+    return result();
+}
