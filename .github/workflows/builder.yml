@@ -12,9 +12,9 @@ jobs:
   build-ubuntu-24:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-        with:
-          path: ${{ env.SRC_PATH }}
+      - name: Clone DIE-engine fork (DevX)
+        run: |
+          git clone https://github.com/DevX-Cipher/DIE-engine.git ${{ env.SRC_PATH }}
 
       - name: Install dependencies
         run: |
@@ -29,9 +29,9 @@ jobs:
   build-ubuntu-24-arm:
     runs-on: ubuntu-24.04-arm
     steps:
-      - uses: actions/checkout@v4
-        with:
-          path: ${{ env.SRC_PATH }}
+      - name: Clone DIE-engine fork (DevX)
+        run: |
+          git clone https://github.com/DevX-Cipher/DIE-engine.git ${{ env.SRC_PATH }}
 
       - name: Install dependencies
         run: |
@@ -46,9 +46,9 @@ jobs:
   build-ubuntu-22:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v4
-        with:
-          path: ${{ env.SRC_PATH }}
+      - name: Clone DIE-engine fork (DevX)
+        run: |
+          git clone https://github.com/DevX-Cipher/DIE-engine.git ${{ env.SRC_PATH }}
 
       - name: Install dependencies
         run: |
@@ -63,9 +63,9 @@ jobs:
   build-windows-32:
     runs-on: windows-2022
     steps:
-      - uses: actions/checkout@v4
-        with:
-          path: ${{ env.SRC_PATH }}
+      - name: Clone DIE-engine fork (DevX)
+        run: |
+          git clone https://github.com/DevX-Cipher/DIE-engine.git ${{ env.SRC_PATH }}
 
       - name: Setup MSVC
         uses: ilammy/msvc-dev-cmd@v1
@@ -100,9 +100,9 @@ jobs:
   build-windows-64:
     runs-on: windows-2022
     steps:
-      - uses: actions/checkout@v4
-        with:
-          path: ${{ env.SRC_PATH }}
+      - name: Clone DIE-engine fork (DevX)
+        run: |
+          git clone https://github.com/DevX-Cipher/DIE-engine.git ${{ env.SRC_PATH }}
 
       - name: Setup MSVC
         uses: ilammy/msvc-dev-cmd@v1
@@ -137,9 +137,9 @@ jobs:
   build-windows-64-qt6:
     runs-on: windows-2022
     steps:
-      - uses: actions/checkout@v4
-        with:
-          path: ${{ env.SRC_PATH }}
+      - name: Clone DIE-engine fork (DevX)
+        run: |
+          git clone https://github.com/DevX-Cipher/DIE-engine.git ${{ env.SRC_PATH }}
 
       - name: Setup MSVC
         uses: ilammy/msvc-dev-cmd@v1
@@ -178,8 +178,7 @@ jobs:
       - name: Install dependencies
         run: |
           pacman -Syu --noconfirm
-          pacman -S --noconfirm qt5-base qt5-script qt5-svg qt5-tools base-devel git
-          pacman -S --noconfirm imagemagick
+          pacman -S --noconfirm qt5-base qt5-script qt5-svg qt5-tools base-devel git imagemagick
 
       - name: Create user
         run: |
@@ -187,10 +186,10 @@ jobs:
           passwd -d builduser 
           echo 'builduser ALL=(ALL) ALL' | tee -a /etc/sudoers 
 
-      - name: Clone DIE-engine manually (no submodules)
+      - name: Clone DIE-engine fork (DevX)
         run: |
           cd /github/home
-          git clone https://github.com/yourname/DevX-DIE-engine DIE-engine
+          git clone https://github.com/DevX-Cipher/DIE-engine.git DIE-engine
 
       - name: Build
         run: |
