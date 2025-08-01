@@ -12,9 +12,11 @@ jobs:
   build-ubuntu-24:
     runs-on: ubuntu-24.04
     steps:
-      - name: Clone DIE-engine fork (DevX)
+      - name: Clone DIE-engine fork (DevX) with submodules
         run: |
           git clone https://github.com/DevX-Cipher/DIE-engine.git ${{ env.SRC_PATH }}
+          cd ${{ env.SRC_PATH }}
+          git submodule update --init --recursive
 
       - name: Install dependencies
         run: |
@@ -29,9 +31,11 @@ jobs:
   build-ubuntu-24-arm:
     runs-on: ubuntu-24.04-arm
     steps:
-      - name: Clone DIE-engine fork (DevX)
+      - name: Clone DIE-engine fork (DevX) with submodules
         run: |
           git clone https://github.com/DevX-Cipher/DIE-engine.git ${{ env.SRC_PATH }}
+          cd ${{ env.SRC_PATH }}
+          git submodule update --init --recursive
 
       - name: Install dependencies
         run: |
@@ -46,9 +50,11 @@ jobs:
   build-ubuntu-22:
     runs-on: ubuntu-22.04
     steps:
-      - name: Clone DIE-engine fork (DevX)
+      - name: Clone DIE-engine fork (DevX) with submodules
         run: |
           git clone https://github.com/DevX-Cipher/DIE-engine.git ${{ env.SRC_PATH }}
+          cd ${{ env.SRC_PATH }}
+          git submodule update --init --recursive
 
       - name: Install dependencies
         run: |
@@ -63,9 +69,11 @@ jobs:
   build-windows-32:
     runs-on: windows-2022
     steps:
-      - name: Clone DIE-engine fork (DevX)
+      - name: Clone DIE-engine fork (DevX) with submodules
         run: |
           git clone https://github.com/DevX-Cipher/DIE-engine.git ${{ env.SRC_PATH }}
+          cd ${{ env.SRC_PATH }}
+          git submodule update --init --recursive
 
       - name: Setup MSVC
         uses: ilammy/msvc-dev-cmd@v1
@@ -100,9 +108,11 @@ jobs:
   build-windows-64:
     runs-on: windows-2022
     steps:
-      - name: Clone DIE-engine fork (DevX)
+      - name: Clone DIE-engine fork (DevX) with submodules
         run: |
           git clone https://github.com/DevX-Cipher/DIE-engine.git ${{ env.SRC_PATH }}
+          cd ${{ env.SRC_PATH }}
+          git submodule update --init --recursive
 
       - name: Setup MSVC
         uses: ilammy/msvc-dev-cmd@v1
@@ -137,9 +147,11 @@ jobs:
   build-windows-64-qt6:
     runs-on: windows-2022
     steps:
-      - name: Clone DIE-engine fork (DevX)
+      - name: Clone DIE-engine fork (DevX) with submodules
         run: |
           git clone https://github.com/DevX-Cipher/DIE-engine.git ${{ env.SRC_PATH }}
+          cd ${{ env.SRC_PATH }}
+          git submodule update --init --recursive
 
       - name: Setup MSVC
         uses: ilammy/msvc-dev-cmd@v1
@@ -186,10 +198,12 @@ jobs:
           passwd -d builduser 
           echo 'builduser ALL=(ALL) ALL' | tee -a /etc/sudoers 
 
-      - name: Clone DIE-engine fork (DevX)
+      - name: Clone DIE-engine fork (DevX) with submodules
         run: |
           cd /github/home
           git clone https://github.com/DevX-Cipher/DIE-engine.git DIE-engine
+          cd DIE-engine
+          git submodule update --init --recursive
 
       - name: Build
         run: |
