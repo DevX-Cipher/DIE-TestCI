@@ -178,28 +178,42 @@ jobs:
           call "%X_SOURCE_PATH%\build_win_generic_qt6.cmd"
 
   build-arch:
-    runs-on: ubuntu-latest
-    container: archlinux:base-devel
-    steps:
-      - name: Install dependencies
-        run: |
-          pacman -Syu --noconfirm
-          pacman -S --noconfirm qt5-base qt5-script qt5-svg qt5-tools base-devel git imagemagick
+  runs-on: ubuntu-latest
+  container:
+    image: archlinux:base-devel
+    options: --volume ${{ github.workspace }}/src:/src
+  steps:
+    - name: Install dependencies
+      run: |
+        pacman -Syu --noconfirm
+        pacman -S --noconfirm qt5-base qt5-script qt5-svg qt5-tools base-devel git imagemagick
 
-      - name: Create build user
-        run: |
-          useradd builduser -m
-          passwd -d builduser
-          echo 'builduser ALL=(ALL) ALL' | tee -a /etc/sudoers
+    - name: Create build user
+      run: |
+        useradd builduser -m
+        passwd -d builduser
+        echo 'builduser ALL=(ALL) ALL' | tee -a /etc/sudoers
 
-      - name: Checkout full source
-        uses: actions/checkout@v4
-        with:
-          path: src
+    - name: Checkout full source
+      uses: actions/checkout@v4
+      with:
+        path: src
 
-      - name: Build Arch package
-        run: |
-          sudo chown -R builduser /src
-          cd /src
-          sudo -u builduser bash -c 'bash -x build_archpkg.sh'
-          rm -Rf release/*debug*
+    - name: Build
+      run: |
+        sudo chown -R builduser /src
+        cd /src
+        sudo -u builduser bash -c 'bash -x build_archpkg.sh'
+        rm -Rf release/*debug*
+        
+    - name: Upload Release as Download
+      if: github.event_name != 'pull_request'
+      uses: softprops/action-gh-release@v2
+      env:
+        RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+      with:
+        tag_name: Beta
+        draft: false
+        prerelease: true
+        files: |
+          /src/release/*.pkg.tar.zst
