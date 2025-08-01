@@ -177,7 +177,7 @@ jobs:
           echo on
           call "%X_SOURCE_PATH%\build_win_generic_qt6.cmd"
 
-  build-arch:
+    build-arch:
     runs-on: ubuntu-latest
     container: archlinux:base-devel
     steps:
@@ -186,20 +186,21 @@ jobs:
           pacman -Syu --noconfirm
           pacman -S --noconfirm qt5-base qt5-script qt5-svg qt5-tools base-devel git imagemagick
 
-      - name: Create user
+      - name: Create build user
         run: |
-          useradd builduser -m 
-          passwd -d builduser 
-          echo 'builduser ALL=(ALL) ALL' | tee -a /etc/sudoers 
+          useradd builduser -m
+          passwd -d builduser
+          echo 'builduser ALL=(ALL) ALL' | tee -a /etc/sudoers
 
       - name: Checkout full source
         uses: actions/checkout@v4
         with:
-          path: DIE-engine
+          path: src
 
-      - name: Build
+      - name: Build Arch package
         run: |
-          sudo chown -R builduser /github/home/DIE-engine
-          cd /github/home/DIE-engine
+          sudo chown -R builduser /src
+          cd /src
           sudo -u builduser bash -c 'bash -x build_archpkg.sh'
           rm -Rf release/*debug*
+

@@ -13,7 +13,7 @@
 #include <QString>
 #include <QStringList>
 #include <QThread>
-#include <QFileSystemWatcher.h>
+#include <QFileSystemWatcher>
 #include <functional>
 
 #ifdef _WIN32
