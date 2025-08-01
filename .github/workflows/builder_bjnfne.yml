@@ -57,27 +57,27 @@ jobs:
           git clone https://github.com/horsicq/signatures.git
           git clone https://github.com/horsicq/XDemangle.git
           git clone https://github.com/horsicq/XDemangleWidget.git
-          git clone https://github.com/horsicq/build_tools
-          git clone https://github.com/horsicq/XCppfilt
-          git clone https://github.com/horsicq/XDynStructs
-          git clone https://github.com/horsicq/XDynStructsEngine
-          git clone https://github.com/horsicq/XDynStructsWidget
-          git clone https://github.com/horsicq/XFileInfo
-          git clone https://github.com/horsicq/XPDF
-          git clone https://github.com/horsicq/XInfoDB
-          git clone https://github.com/horsicq/XSymbolsWidget
-          git clone https://github.com/horsicq/XOnlineTools
-          git clone https://github.com/horsicq/XAboutWidget
-          git clone https://github.com/horsicq/hex_templates
-          git clone https://github.com/horsicq/XExtractorWidget
-          git clone https://github.com/horsicq/XExtractor
-          git clone https://github.com/horsicq/XUpdate
-          git clone https://github.com/horsicq/XVisualizationWidget
-          git clone https://github.com/horsicq/XDecompiler
-          git clone https://github.com/horsicq/XYara
-          git clone https://github.com/horsicq/yara_widget
-          git clone https://github.com/horsicq/XDataConvertorWidget
-          git clone https://github.com/horsicq/XScanEngine
+          git clone https://github.com/horsicq/build_tools.git
+          git clone https://github.com/horsicq/XCppfilt.git
+          git clone https://github.com/horsicq/XDynStructs.git
+          git clone https://github.com/horsicq/XDynStructsEngine.git
+          git clone https://github.com/horsicq/XDynStructsWidget.git
+          git clone https://github.com/horsicq/XFileInfo.git
+          git clone https://github.com/horsicq/XPDF.git
+          git clone https://github.com/horsicq/XInfoDB.git
+          git clone https://github.com/horsicq/XSymbolsWidget.git
+          git clone https://github.com/horsicq/XOnlineTools.git
+          git clone https://github.com/horsicq/XAboutWidget.git
+          git clone https://github.com/horsicq/hex_templates.git
+          git clone https://github.com/horsicq/XExtractorWidget.git
+          git clone https://github.com/horsicq/XExtractor.git
+          git clone https://github.com/horsicq/XUpdate.git
+          git clone https://github.com/horsicq/XVisualizationWidget.git
+          git clone https://github.com/horsicq/XDecompiler.git
+          git clone https://github.com/horsicq/XYara.git
+          git clone https://github.com/horsicq/yara_widget.git
+          git clone https://github.com/horsicq/XDataConvertorWidget.git
+          git clone https://github.com/horsicq/XScanEngine.git
           git clone https://github.com/horsicq/XDisasmCore.git
           git clone https://github.com/horsicq/XRegionsWidget.git
           chmod a+x configure
@@ -133,27 +133,27 @@ jobs:
           git clone https://github.com/horsicq/signatures.git
           git clone https://github.com/horsicq/XDemangle.git
           git clone https://github.com/horsicq/XDemangleWidget.git
-          git clone https://github.com/horsicq/build_tools
-          git clone https://github.com/horsicq/XCppfilt
-          git clone https://github.com/horsicq/XDynStructs
-          git clone https://github.com/horsicq/XDynStructsEngine
-          git clone https://github.com/horsicq/XDynStructsWidget
-          git clone https://github.com/horsicq/XFileInfo
-          git clone https://github.com/horsicq/XPDF
-          git clone https://github.com/horsicq/XInfoDB
-          git clone https://github.com/horsicq/XSymbolsWidget
-          git clone https://github.com/horsicq/XOnlineTools
-          git clone https://github.com/horsicq/XAboutWidget
-          git clone https://github.com/horsicq/hex_templates
-          git clone https://github.com/horsicq/XExtractorWidget
-          git clone https://github.com/horsicq/XExtractor
-          git clone https://github.com/horsicq/XUpdate
-          git clone https://github.com/horsicq/XVisualizationWidget
-          git clone https://github.com/horsicq/XDecompiler
-          git clone https://github.com/horsicq/XYara
-          git clone https://github.com/horsicq/yara_widget
-          git clone https://github.com/horsicq/XDataConvertorWidget
-          git clone https://github.com/horsicq/XScanEngine
+          git clone https://github.com/horsicq/build_tools.git
+          git clone https://github.com/horsicq/XCppfilt.git
+          git clone https://github.com/horsicq/XDynStructs.git
+          git clone https://github.com/horsicq/XDynStructsEngine.git
+          git clone https://github.com/horsicq/XDynStructsWidget.git
+          git clone https://github.com/horsicq/XFileInfo.git
+          git clone https://github.com/horsicq/XPDF.git
+          git clone https://github.com/horsicq/XInfoDB.git
+          git clone https://github.com/horsicq/XSymbolsWidget.git
+          git clone https://github.com/horsicq/XOnlineTools.git
+          git clone https://github.com/horsicq/XAboutWidget.git
+          git clone https://github.com/horsicq/hex_templates.git
+          git clone https://github.com/horsicq/XExtractorWidget.git
+          git clone https://github.com/horsicq/XExtractor.git
+          git clone https://github.com/horsicq/XUpdate.git
+          git clone https://github.com/horsicq/XVisualizationWidget.git
+          git clone https://github.com/horsicq/XDecompiler.git
+          git clone https://github.com/horsicq/XYara.git
+          git clone https://github.com/horsicq/yara_widget.git
+          git clone https://github.com/horsicq/XDataConvertorWidget.git
+          git clone https://github.com/horsicq/XScanEngine.git
           git clone https://github.com/horsicq/XDisasmCore.git
           git clone https://github.com/horsicq/XRegionsWidget.git
           chmod a+x configure
@@ -208,27 +208,27 @@ jobs:
           git clone https://github.com/horsicq/signatures.git
           git clone https://github.com/horsicq/XDemangle.git
           git clone https://github.com/horsicq/XDemangleWidget.git
-          git clone https://github.com/horsicq/build_tools
-          git clone https://github.com/horsicq/XCppfilt
-          git clone https://github.com/horsicq/XDynStructs
-          git clone https://github.com/horsicq/XDynStructsEngine
-          git clone https://github.com/horsicq/XDynStructsWidget
-          git clone https://github.com/horsicq/XFileInfo
-          git clone https://github.com/horsicq/XPDF
-          git clone https://github.com/horsicq/XInfoDB
-          git clone https://github.com/horsicq/XSymbolsWidget
-          git clone https://github.com/horsicq/XOnlineTools
-          git clone https://github.com/horsicq/XAboutWidget
-          git clone https://github.com/horsicq/hex_templates
-          git clone https://github.com/horsicq/XExtractorWidget
-          git clone https://github.com/horsicq/XExtractor
-          git clone https://github.com/horsicq/XUpdate
-          git clone https://github.com/horsicq/XVisualizationWidget
-          git clone https://github.com/horsicq/XDecompiler
-          git clone https://github.com/horsicq/XYara
-          git clone https://github.com/horsicq/yara_widget
-          git clone https://github.com/horsicq/XDataConvertorWidget
-          git clone https://github.com/horsicq/XScanEngine
+          git clone https://github.com/horsicq/build_tools.git
+          git clone https://github.com/horsicq/XCppfilt.git
+          git clone https://github.com/horsicq/XDynStructs.git
+          git clone https://github.com/horsicq/XDynStructsEngine.git
+          git clone https://github.com/horsicq/XDynStructsWidget.git
+          git clone https://github.com/horsicq/XFileInfo.git
+          git clone https://github.com/horsicq/XPDF.git
+          git clone https://github.com/horsicq/XInfoDB.git
+          git clone https://github.com/horsicq/XSymbolsWidget.git
+          git clone https://github.com/horsicq/XOnlineTools.git
+          git clone https://github.com/horsicq/XAboutWidget.git
+          git clone https://github.com/horsicq/hex_templates.git
+          git clone https://github.com/horsicq/XExtractorWidget.git
+          git clone https://github.com/horsicq/XExtractor.git
+          git clone https://github.com/horsicq/XUpdate.git
+          git clone https://github.com/horsicq/XVisualizationWidget.git
+          git clone https://github.com/horsicq/XDecompiler.git
+          git clone https://github.com/horsicq/XYara.git
+          git clone https://github.com/horsicq/yara_widget.git
+          git clone https://github.com/horsicq/XDataConvertorWidget.git
+          git clone https://github.com/horsicq/XScanEngine.git
           git clone https://github.com/horsicq/XDisasmCore.git
           git clone https://github.com/horsicq/XRegionsWidget.git
           chmod a+x configure
@@ -368,27 +368,27 @@ jobs:
           git clone https://github.com/horsicq/signatures.git
           git clone https://github.com/horsicq/XDemangle.git
           git clone https://github.com/horsicq/XDemangleWidget.git
-          git clone https://github.com/horsicq/build_tools
-          git clone https://github.com/horsicq/XCppfilt
-          git clone https://github.com/horsicq/XDynStructs
-          git clone https://github.com/horsicq/XDynStructsEngine
-          git clone https://github.com/horsicq/XDynStructsWidget
-          git clone https://github.com/horsicq/XFileInfo
-          git clone https://github.com/horsicq/XPDF
-          git clone https://github.com/horsicq/XInfoDB
-          git clone https://github.com/horsicq/XSymbolsWidget
-          git clone https://github.com/horsicq/XOnlineTools
-          git clone https://github.com/horsicq/XAboutWidget
-          git clone https://github.com/horsicq/hex_templates
-          git clone https://github.com/horsicq/XExtractorWidget
-          git clone https://github.com/horsicq/XExtractor
-          git clone https://github.com/horsicq/XUpdate
-          git clone https://github.com/horsicq/XVisualizationWidget
-          git clone https://github.com/horsicq/XDecompiler
-          git clone https://github.com/horsicq/XYara
-          git clone https://github.com/horsicq/yara_widget
-          git clone https://github.com/horsicq/XDataConvertorWidget
-          git clone https://github.com/horsicq/XScanEngine
+          git clone https://github.com/horsicq/build_tools.git
+          git clone https://github.com/horsicq/XCppfilt.git
+          git clone https://github.com/horsicq/XDynStructs.git
+          git clone https://github.com/horsicq/XDynStructsEngine.git
+          git clone https://github.com/horsicq/XDynStructsWidget.git
+          git clone https://github.com/horsicq/XFileInfo.git
+          git clone https://github.com/horsicq/XPDF.git
+          git clone https://github.com/horsicq/XInfoDB.git
+          git clone https://github.com/horsicq/XSymbolsWidget.git
+          git clone https://github.com/horsicq/XOnlineTools.git
+          git clone https://github.com/horsicq/XAboutWidget.git
+          git clone https://github.com/horsicq/hex_templates.git
+          git clone https://github.com/horsicq/XExtractorWidget.git
+          git clone https://github.com/horsicq/XExtractor.git
+          git clone https://github.com/horsicq/XUpdate.git
+          git clone https://github.com/horsicq/XVisualizationWidget.git
+          git clone https://github.com/horsicq/XDecompiler.git
+          git clone https://github.com/horsicq/XYara.git
+          git clone https://github.com/horsicq/yara_widget.git
+          git clone https://github.com/horsicq/XDataConvertorWidget.git
+          git clone https://github.com/horsicq/XScanEngine.git
           git clone https://github.com/horsicq/XDisasmCore.git
           git clone https://github.com/horsicq/XRegionsWidget.git
 
