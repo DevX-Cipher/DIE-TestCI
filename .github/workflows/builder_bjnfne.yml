@@ -334,6 +334,64 @@ jobs:
           dir: ${{ github.workspace }}
           modules: qt5compat
 
+      - name: Clone repositories
+        run: |
+          git clone https://github.com/horsicq/Detect-It-Easy.git
+          git clone https://github.com/horsicq/Formats.git
+          git clone https://github.com/horsicq/SpecAbstract.git
+          git clone https://github.com/horsicq/StaticScan.git
+          git clone https://github.com/horsicq/XArchive.git
+          git clone https://github.com/horsicq/XQwt.git
+          git clone https://github.com/horsicq/XOptions.git
+          git clone https://github.com/horsicq/XStyles.git
+          git clone https://github.com/horsicq/XTranslation.git
+          git clone https://github.com/horsicq/XDEX.git
+          git clone https://github.com/horsicq/FormatDialogs.git
+          git clone https://github.com/horsicq/FormatWidgets.git
+          git clone https://github.com/horsicq/Controls.git
+          git clone https://github.com/horsicq/XMemoryMapWidget.git
+          git clone https://github.com/horsicq/XEntropyWidget.git
+          git clone https://github.com/horsicq/XCapstone.git
+          git clone https://github.com/horsicq/XHashWidget.git
+          git clone https://github.com/horsicq/die_script.git
+          git clone https://github.com/horsicq/die_widget.git
+          git clone https://github.com/horsicq/nfd_widget.git
+          git clone https://github.com/horsicq/archive_widget.git
+          git clone https://github.com/horsicq/XMIME.git
+          git clone https://github.com/horsicq/XSingleApplication.git
+          git clone https://github.com/horsicq/XMIMEWidget.git
+          git clone https://github.com/horsicq/XHexView.git
+          git clone https://github.com/horsicq/XDisasmView.git
+          git clone https://github.com/horsicq/XGithub.git
+          git clone https://github.com/horsicq/XShortcuts.git
+          git clone https://github.com/horsicq/XHexEdit.git
+          git clone https://github.com/horsicq/signatures.git
+          git clone https://github.com/horsicq/XDemangle.git
+          git clone https://github.com/horsicq/XDemangleWidget.git
+          git clone https://github.com/horsicq/build_tools
+          git clone https://github.com/horsicq/XCppfilt
+          git clone https://github.com/horsicq/XDynStructs
+          git clone https://github.com/horsicq/XDynStructsEngine
+          git clone https://github.com/horsicq/XDynStructsWidget
+          git clone https://github.com/horsicq/XFileInfo
+          git clone https://github.com/horsicq/XPDF
+          git clone https://github.com/horsicq/XInfoDB
+          git clone https://github.com/horsicq/XSymbolsWidget
+          git clone https://github.com/horsicq/XOnlineTools
+          git clone https://github.com/horsicq/XAboutWidget
+          git clone https://github.com/horsicq/hex_templates
+          git clone https://github.com/horsicq/XExtractorWidget
+          git clone https://github.com/horsicq/XExtractor
+          git clone https://github.com/horsicq/XUpdate
+          git clone https://github.com/horsicq/XVisualizationWidget
+          git clone https://github.com/horsicq/XDecompiler
+          git clone https://github.com/horsicq/XYara
+          git clone https://github.com/horsicq/yara_widget
+          git clone https://github.com/horsicq/XDataConvertorWidget
+          git clone https://github.com/horsicq/XScanEngine
+          git clone https://github.com/horsicq/XDisasmCore.git
+          git clone https://github.com/horsicq/XRegionsWidget.git
+
       - name: Build
         shell: cmd
         working-directory: ${{ env.SRC_PATH }}
