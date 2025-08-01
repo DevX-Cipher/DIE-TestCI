@@ -451,10 +451,10 @@ jobs:
 
   mingw-build:
     runs-on: windows-latest
-    name: MinGW Build
+    name: MinGW Build (Chocolatey)
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Install Chocolatey
         run: |
@@ -462,15 +462,12 @@ jobs:
           [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
           iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
-      - name: Install MinGW
-        run: choco install mingw -y
-
-      - name: Install MinGW libraries
+      - name: Install MinGW and required libraries
         run: |
-          pacman -Syu --noconfirm
-          pacman -S --noconfirm mingw-w64-ucrt-x86_64-gcc
-          pacman -S --noconfirm mingw-w64-x86_64-qt5-tools
-
+          choco install mingw -y
+          choco install mingw-w64-ucrt-x86_64-gcc -y
+          choco install mingw-w64-x86_64-qt5-tools -y
+          
       - name: Clone required repositories
         run: |
           git clone https://github.com/horsicq/Detect-It-Easy.git
@@ -531,7 +528,6 @@ jobs:
 
       - name: Build project
         run: |
-          cd Detect-It-Easy
           chmod a+x configure
           ./configure
           make -j4
