@@ -1,0 +1,220 @@
+name: Build DIE-engine CI
+
+on:
+  workflow_dispatch:
+
+env:
+  SRC_PATH: ${{ github.workspace }}/src
+  SRC_PATH_WIN: ${{ github.workspace }}\src
+  RELEASE_PATH: ${{ github.workspace }}/src/release
+
+jobs:
+  build-ubuntu-24:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Clone DIE-engine full source (no submodules)
+        uses: actions/checkout@v4
+        with:
+          path: src
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install qtbase5-dev qtscript5-dev qttools5-dev-tools libqt5svg5-dev qtchooser qt5-qmake build-essential -y
+
+      - name: Build
+        working-directory: ${{ env.SRC_PATH }}
+        run: |
+          bash -x build_dpkg.sh
+
+  build-ubuntu-24-arm:
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - name: Clone DIE-engine full source (no submodules)
+        uses: actions/checkout@v4
+        with:
+          path: src
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install qtbase5-dev qtscript5-dev qttools5-dev-tools libqt5svg5-dev qtchooser qt5-qmake build-essential -y
+
+      - name: Build
+        working-directory: ${{ env.SRC_PATH }}
+        run: |
+          bash -x build_dpkg.sh
+
+  build-ubuntu-22:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Clone DIE-engine full source (no submodules)
+        uses: actions/checkout@v4
+        with:
+          path: src
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install qtbase5-dev qtscript5-dev qttools5-dev-tools libqt5svg5-dev qtchooser qt5-qmake build-essential -y
+
+      - name: Build
+        working-directory: ${{ env.SRC_PATH }}
+        run: |
+          bash -x build_dpkg.sh
+
+  build-windows-32:
+    runs-on: windows-2022
+    steps:
+      - name: Checkout full source
+        uses: actions/checkout@v4
+        with:
+          path: src
+
+      - name: Setup MSVC
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x86
+
+      - name: Install Qt 5
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: '5.15.2'
+          host: 'windows'
+          target: 'desktop'
+          arch: 'win32_msvc2019'
+          dir: ${{ github.workspace }}
+          modules: qtscript
+
+      - name: Build
+        shell: cmd
+        working-directory: ${{ env.SRC_PATH }}
+        run: |
+          set VSVARS_PATH="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\vcvars32.bat"
+          set QMAKE_PATH="${{ github.workspace }}\Qt\5.15.2\msvc2019\bin\qmake.exe"
+          set SEVENZIP_PATH="C:\Program Files\7-Zip\7z.exe"
+          set INNOSETUP_PATH="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
+          set X_BUILD_NAME=die
+          set X_BUILD_PREFIX=win32
+          set X_SOURCE_PATH=${{ env.SRC_PATH_WIN }}
+          for /f "delims=" %%x in ('type "%X_SOURCE_PATH%\release_version.txt"') do set X_RELEASE_VERSION=%%x
+          echo on
+          call "%X_SOURCE_PATH%\build_win_generic_check.cmd"
+
+  build-windows-64:
+    runs-on: windows-2022
+    steps:
+      - name: Checkout full source
+        uses: actions/checkout@v4
+        with:
+          path: src
+
+      - name: Setup MSVC
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Install Qt 5
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: '5.15.2'
+          host: 'windows'
+          target: 'desktop'
+          arch: 'win64_msvc2019_64'
+          dir: ${{ github.workspace }}
+          modules: qtscript
+
+James Smith, [01.08.25 18:43]
+- name: Build
+        shell: cmd
+        working-directory: ${{ env.SRC_PATH }}
+        run: |
+          set VSVARS_PATH="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\vcvars64.bat"
+          set QMAKE_PATH="${{ github.workspace }}\Qt\5.15.2\msvc2019_64\bin\qmake.exe"
+          set SEVENZIP_PATH="C:\Program Files\7-Zip\7z.exe"
+          set INNOSETUP_PATH="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
+          set X_BUILD_NAME=die
+          set X_BUILD_PREFIX=win64
+          set X_SOURCE_PATH=${{ env.SRC_PATH_WIN }}
+          for /f "delims=" %%x in ('type "%X_SOURCE_PATH%\release_version.txt"') do set X_RELEASE_VERSION=%%x
+          echo on
+          call "%X_SOURCE_PATH%\build_win_generic_check.cmd"
+
+  build-windows-64-qt6:
+    runs-on: windows-2022
+    steps:
+      - name: Checkout full source
+        uses: actions/checkout@v4
+        with:
+          path: src
+
+      - name: Setup MSVC
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Install Qt 6
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: '6.8.3'
+          host: 'windows'
+          target: 'desktop'
+          arch: 'win64_msvc2022_64'
+          dir: ${{ github.workspace }}
+          modules: qt5compat
+
+      - name: Build
+        shell: cmd
+        working-directory: ${{ env.SRC_PATH }}
+        run: |
+          set VSVARS_PATH="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvars64.bat"
+          set QMAKE_PATH="${{ github.workspace }}\Qt\6.8.3\msvc2022_64\bin\qmake.exe"
+          set SEVENZIP_PATH="C:\Program Files\7-Zip\7z.exe"
+          set INNOSETUP_PATH="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
+          set X_BUILD_NAME=die
+          set X_BUILD_PREFIX=win64_qt6
+          set X_SOURCE_PATH=${{ env.SRC_PATH_WIN }}
+          for /f "delims=" %%x in ('type "%X_SOURCE_PATH%\release_version.txt"') do set X_RELEASE_VERSION=%%x
+          echo on
+          call "%X_SOURCE_PATH%\build_win_generic_qt6.cmd"
+
+  build-arch:
+    runs-on: ubuntu-latest
+    container:
+      image: archlinux:base-devel
+      options: --volume ${{ github.workspace }}/src:/src
+    steps:
+      - name: Install dependencies
+        run: |
+          pacman -Syu --noconfirm
+          pacman -S --noconfirm qt5-base qt5-script qt5-svg qt5-tools base-devel git imagemagick
+
+      - name: Create build user
+        run: |
+          useradd builduser -m
+          passwd -d builduser
+          echo 'builduser ALL=(ALL) ALL' | tee -a /etc/sudoers
+
+      - name: Checkout full source
+        uses: actions/checkout@v4
+        with:
+          path: src
+
+      - name: Build
+        run: |
+          sudo chown -R builduser /src
+          cd /src
+          sudo -u builduser bash -c 'bash -x build_archpkg.sh'
+          rm -Rf release/*debug*
+
+      - name: Upload Release as Download
+        if: github.event_name != 'pull_request'
+        uses: softprops/action-gh-release@v2
+        env:
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        with:
+          tag_name: Beta
+          draft: false
+          prerelease: true
+          files: |
+            /src/release/*.pkg.tar.zst
