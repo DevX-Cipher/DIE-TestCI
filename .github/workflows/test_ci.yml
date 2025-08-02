@@ -1,4 +1,4 @@
-name: Build DIE-engine CI
+name: Build DIE-engine CI (DevX)
 
 on:
   workflow_dispatch:
