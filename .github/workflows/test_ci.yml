@@ -124,8 +124,7 @@ jobs:
           dir: ${{ github.workspace }}
           modules: qtscript
 
-James Smith, [01.08.25 18:43]
-- name: Build
+      - name: Build
         shell: cmd
         working-directory: ${{ env.SRC_PATH }}
         run: |
