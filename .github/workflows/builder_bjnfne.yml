@@ -454,7 +454,10 @@ jobs:
           dir: ${{ github.workspace }}
           modules: qt5compat
 
+      # FIX: Added 'working-directory: ${{ env.SRC_PATH }}' to this step
+      # so that the repositories are cloned into the correct location.
       - name: Clone repositories
+        working-directory: ${{ env.SRC_PATH }}
         run: |
           git clone https://github.com/horsicq/Detect-It-Easy.git
           git clone https://github.com/horsicq/Formats.git
@@ -511,7 +514,7 @@ jobs:
           git clone https://github.com/horsicq/XScanEngine.git
           git clone https://github.com/horsicq/XDisasmCore.git
           git clone https://github.com/horsicq/XRegionsWidget.git
-
+          
       - name: Build
         shell: cmd
         working-directory: ${{ env.SRC_PATH }}
