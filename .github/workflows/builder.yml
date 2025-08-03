@@ -1,29 +1,29 @@
-name: Build DIE-engine CI (Updated)
+name: Build DIE-engine
 
 on:
   workflow_dispatch:
+  release:
+    types: [created]
+  schedule:
+    - cron: '0 0 * * MON'
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 env:
   SRC_PATH: ${{ github.workspace }}/src
   SRC_PATH_WIN: ${{ github.workspace }}\src
   RELEASE_PATH: ${{ github.workspace }}/src/release
 
+# the jobs are based on these notes:
+# https://github.com/horsicq/Detect-It-Easy/blob/master/docs/BUILD.md
 jobs:
   build-ubuntu-24:
     runs-on: ubuntu-24.04
     steps:
-      - name: Checkout DIE-engine full source
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          path: src
-          submodules: false
-
-      - name: Initialize submodules and replace XOptions
-        working-directory: ${{ env.SRC_PATH }}
-        run: |
-          git submodule update --init --recursive
-          rm -rf XOptions
-          git clone https://github.com/DevX-Cipher/XOptions.git XOptions
+         submodules: 'recursive'
+         path: ${{ env.SRC_PATH }}
 
       - name: Install dependencies
         run: |
@@ -33,25 +33,27 @@ jobs:
       - name: Build
         working-directory: ${{ env.SRC_PATH }}
         run: |
-          chmod a+x configure
-          ./configure
-          make -j4
+          bash -x build_dpkg.sh
 
+      - name: Upload Release as Download
+        if: github.event_name != 'pull_request'
+        uses: softprops/action-gh-release@v2
+        env:
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        with:
+          tag_name: Beta
+          draft: false
+          prerelease: true
+          files: |
+            ${{ env.RELEASE_PATH }}/*.deb
+            
   build-ubuntu-24-arm:
     runs-on: ubuntu-24.04-arm
     steps:
-      - name: Checkout DIE-engine full source
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          path: src
-          submodules: false
-
-      - name: Initialize submodules and replace XOptions
-        working-directory: ${{ env.SRC_PATH }}
-        run: |
-          git submodule update --init --recursive
-          rm -rf XOptions
-          git clone https://github.com/DevX-Cipher/XOptions.git XOptions
+         submodules: 'recursive'
+         path: ${{ env.SRC_PATH }}
 
       - name: Install dependencies
         run: |
@@ -61,25 +63,27 @@ jobs:
       - name: Build
         working-directory: ${{ env.SRC_PATH }}
         run: |
-          chmod a+x configure
-          ./configure
-          make -j4
+          bash -x build_dpkg.sh
+
+      - name: Upload Release as Download
+        if: github.event_name != 'pull_request'
+        uses: softprops/action-gh-release@v2
+        env:
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        with:
+          tag_name: Beta
+          draft: false
+          prerelease: true
+          files: |
+            ${{ env.RELEASE_PATH }}/*.deb
 
   build-ubuntu-22:
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout DIE-engine full source
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          path: src
-          submodules: false
-
-      - name: Initialize submodules and replace XOptions
-        working-directory: ${{ env.SRC_PATH }}
-        run: |
-          git submodule update --init --recursive
-          rm -rf XOptions
-          git clone https://github.com/DevX-Cipher/XOptions.git XOptions
+         submodules: 'recursive'
+         path: ${{ env.SRC_PATH }}
 
       - name: Install dependencies
         run: |
@@ -89,33 +93,34 @@ jobs:
       - name: Build
         working-directory: ${{ env.SRC_PATH }}
         run: |
-          chmod a+x configure
-          ./configure
-          make -j4
+          bash -x build_dpkg.sh
 
+      - name: Upload Release as Download
+        if: github.event_name != 'pull_request'
+        uses: softprops/action-gh-release@v2
+        env:
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        with:
+          tag_name: Beta
+          draft: false
+          prerelease: true
+          files: |
+            ${{ env.RELEASE_PATH }}/*.deb
+            
   build-windows-32:
     runs-on: windows-2022
     steps:
-      - name: Checkout full source
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          path: src
-          submodules: false
-
-      - name: Initialize submodules and replace XOptions
-        shell: cmd
-        working-directory: ${{ env.SRC_PATH }}
-        run: |
-          git submodule update --init --recursive
-          rmdir /s /q XOptions
-          git clone https://github.com/DevX-Cipher/XOptions.git XOptions
+         submodules: 'recursive'
+         path: ${{ env.SRC_PATH }}
 
       - name: Setup MSVC
         uses: ilammy/msvc-dev-cmd@v1
         with:
-          arch: x86
+         arch: x86
 
-      - name: Install Qt 5
+      - name: Install Qt
         uses: jurplel/install-qt-action@v4
         with:
           version: '5.15.2'
@@ -133,36 +138,47 @@ jobs:
           set QMAKE_PATH="${{ github.workspace }}\Qt\5.15.2\msvc2019\bin\qmake.exe"
           set SEVENZIP_PATH="C:\Program Files\7-Zip\7z.exe"
           set INNOSETUP_PATH="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
+
           set X_BUILD_NAME=die
           set X_BUILD_PREFIX=win32
           set X_SOURCE_PATH=${{ env.SRC_PATH_WIN }}
           for /f "delims=" %%x in ('type "%X_SOURCE_PATH%\release_version.txt"') do set X_RELEASE_VERSION=%%x
+
           echo on
           call "%X_SOURCE_PATH%\build_win_generic_check.cmd"
+
+          dir "%X_SOURCE_PATH%\release\*.zip" >nul 2>&1
+          if %ERRORLEVEL% neq 0 (
+            echo "ZIP file does not exist"
+            exit /b 1
+          )
+
+      - name: Upload Release as Download
+        if: github.event_name != 'pull_request'
+        uses: softprops/action-gh-release@v2
+        env:
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        with:
+          tag_name: Beta
+          draft: false
+          prerelease: true
+          files: |
+            ${{ env.RELEASE_PATH }}/*.zip
 
   build-windows-64:
     runs-on: windows-2022
     steps:
-      - name: Checkout full source
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          path: src
-          submodules: false
-
-      - name: Initialize submodules and replace XOptions
-        shell: cmd
-        working-directory: ${{ env.SRC_PATH }}
-        run: |
-          git submodule update --init --recursive
-          rmdir /s /q XOptions
-          git clone https://github.com/DevX-Cipher/XOptions.git XOptions
+         submodules: 'recursive'
+         path: ${{ env.SRC_PATH }}
 
       - name: Setup MSVC
         uses: ilammy/msvc-dev-cmd@v1
         with:
-          arch: x64
+         arch: x64
 
-      - name: Install Qt 5
+      - name: Install Qt
         uses: jurplel/install-qt-action@v4
         with:
           version: '5.15.2'
@@ -180,36 +196,47 @@ jobs:
           set QMAKE_PATH="${{ github.workspace }}\Qt\5.15.2\msvc2019_64\bin\qmake.exe"
           set SEVENZIP_PATH="C:\Program Files\7-Zip\7z.exe"
           set INNOSETUP_PATH="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
+
           set X_BUILD_NAME=die
           set X_BUILD_PREFIX=win64
           set X_SOURCE_PATH=${{ env.SRC_PATH_WIN }}
           for /f "delims=" %%x in ('type "%X_SOURCE_PATH%\release_version.txt"') do set X_RELEASE_VERSION=%%x
+
           echo on
           call "%X_SOURCE_PATH%\build_win_generic_check.cmd"
 
+          dir "%X_SOURCE_PATH%\release\*.zip" >nul 2>&1
+          if %ERRORLEVEL% neq 0 (
+            echo "ZIP file does not exist"
+            exit /b 1
+          )
+
+      - name: Upload Release as Download
+        if: github.event_name != 'pull_request'
+        uses: softprops/action-gh-release@v2
+        env:
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        with:
+          tag_name: Beta
+          draft: false
+          prerelease: true
+          files: |
+            ${{ env.RELEASE_PATH }}/*.zip
+            
   build-windows-64-qt6:
     runs-on: windows-2022
     steps:
-      - name: Checkout full source
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          path: src
-          submodules: false
-
-      - name: Initialize submodules and replace XOptions
-        shell: cmd
-        working-directory: ${{ env.SRC_PATH }}
-        run: |
-          git submodule update --init --recursive
-          rmdir /s /q XOptions
-          git clone https://github.com/DevX-Cipher/XOptions.git XOptions
+         submodules: 'recursive'
+         path: ${{ env.SRC_PATH }}
 
       - name: Setup MSVC
         uses: ilammy/msvc-dev-cmd@v1
         with:
-          arch: x64
+         arch: x64
 
-      - name: Install Qt 6
+      - name: Install Qt
         uses: jurplel/install-qt-action@v4
         with:
           version: '6.8.3'
@@ -227,48 +254,20 @@ jobs:
           set QMAKE_PATH="${{ github.workspace }}\Qt\6.8.3\msvc2022_64\bin\qmake.exe"
           set SEVENZIP_PATH="C:\Program Files\7-Zip\7z.exe"
           set INNOSETUP_PATH="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
+
           set X_BUILD_NAME=die
           set X_BUILD_PREFIX=win64_qt6
           set X_SOURCE_PATH=${{ env.SRC_PATH_WIN }}
           for /f "delims=" %%x in ('type "%X_SOURCE_PATH%\release_version.txt"') do set X_RELEASE_VERSION=%%x
+
           echo on
           call "%X_SOURCE_PATH%\build_win_generic_qt6.cmd"
 
-  build-arch:
-    runs-on: ubuntu-latest
-    container:
-      image: archlinux:base-devel
-      options: --volume ${{ github.workspace }}/src:/src
-    steps:
-      - name: Install dependencies
-        run: |
-          pacman -Syu --noconfirm
-          pacman -S --noconfirm qt5-base qt5-script qt5-svg qt5-tools base-devel git imagemagick
-
-      - name: Create build user
-        run: |
-          useradd builduser -m
-          passwd -d builduser
-          echo 'builduser ALL=(ALL) ALL' | tee -a /etc/sudoers
-
-      - name: Checkout full source
-        uses: actions/checkout@v4
-        with:
-          path: src
-          submodules: false
-
-      - name: Initialize submodules and replace XOptions
-        run: |
-          git submodule update --init --recursive
-          rm -rf /src/XOptions
-          git clone https://github.com/DevX-Cipher/XOptions.git /src/XOptions
-
-      - name: Build
-        run: |
-          sudo chown -R builduser /src
-          cd /src
-          sudo -u builduser bash -c 'bash -x build_archpkg.sh'
-          rm -Rf release/*debug*
+          dir "%X_SOURCE_PATH%\release\*.zip" >nul 2>&1
+          if %ERRORLEVEL% neq 0 (
+            echo "ZIP file does not exist"
+            exit /b 1
+          )
 
       - name: Upload Release as Download
         if: github.event_name != 'pull_request'
@@ -280,4 +279,74 @@ jobs:
           draft: false
           prerelease: true
           files: |
-            /src/release/*.pkg.tar.zst
+            ${{ env.RELEASE_PATH }}/*.zip
+            
+            
+  build-arch:
+    runs-on: ubuntu-latest
+    container: archlinux:base-devel
+    steps:
+      - name: Install dependencies
+        run: |
+          pacman -Syu --noconfirm
+          pacman -S --noconfirm qt5-base qt5-script qt5-svg qt5-tools base-devel git
+          pacman -S --noconfirm imagemagick
+
+      - name: Create user
+        run: |
+          useradd builduser -m 
+          passwd -d builduser 
+          echo 'builduser ALL=(ALL) ALL' | tee -a /etc/sudoers 
+
+      - name: Clone DIE-engine
+        run: |
+          cd $HOME
+          pwd
+          git clone --recursive https://github.com/horsicq/DIE-engine
+          
+      - name: Build
+        run: |
+          sudo chown -R builduser /__w/DIE-engine/DIE-engine
+          sudo chown -R builduser /github/home/DIE-engine
+          cd /github/home/DIE-engine
+          pwd
+          sudo -u builduser bash -c 'bash -x build_archpkg.sh'
+          rm -Rf /__w/DIE-engine/DIE-engine/release/*debug*
+          rm -Rf /github/home/DIE-engine/release/*debug*
+
+      - name: Upload Release as Download
+        if: github.event_name != 'pull_request'
+        uses: softprops/action-gh-release@v2
+        env:
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        with:
+          tag_name: Beta
+          draft: false
+          prerelease: true
+          files: |
+            /github/home/DIE-engine/release/*.pkg.tar.zst
+
+# build-osx:
+#   runs-on: macos-latest
+#   steps:
+#     - uses: actions/checkout@v4
+#       with:
+#        submodules: 'recursive'
+#        path: ${{ env.SRC_PATH }}
+
+#     - name: Install Qt
+#       uses: jurplel/install-qt-action@v4
+#       with:
+#         version: '5.15.2'
+#         host: 'mac'
+#         target: 'desktop'
+#         arch: 'clang_64'
+#         # I make it match what build_mac.sh expects. Although I could also use Qt5_DIR
+#         #dir: ${{ env.HOME }}
+#         dir: /Users/runner
+#         modules: qtscript
+
+#     - name: Build
+#       working-directory: ${{ env.SRC_PATH }}
+#       run: |
+#         bash -x build_mac.sh
