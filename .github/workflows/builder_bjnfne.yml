@@ -67,11 +67,11 @@ jobs:
           git clone https://github.com/horsicq/XInfoDB.git
           git clone https://github.com/horsicq/XSymbolsWidget.git
           git clone https://github.com/horsicq/XOnlineTools.git
-          git clone https://github.com/DevX-Cipher/XAboutWidget.git
+          git clone https://github.com/horsicq/XAboutWidget.git
           git clone https://github.com/horsicq/hex_templates.git
           git clone https://github.com/horsicq/XExtractorWidget.git
           git clone https://github.com/horsicq/XExtractor.git
-          git clone https://github.com/DevX-Cipher/XUpdate.git
+          git clone https://github.com/horsicq/XUpdate.git
           git clone https://github.com/horsicq/XVisualizationWidget.git
           git clone https://github.com/horsicq/XDecompiler.git
           git clone https://github.com/horsicq/XYara.git
@@ -143,11 +143,11 @@ jobs:
           git clone https://github.com/horsicq/XInfoDB.git
           git clone https://github.com/horsicq/XSymbolsWidget.git
           git clone https://github.com/horsicq/XOnlineTools.git
-          git clone https://github.com/DevX-Cipher/XAboutWidget.git
+          git clone https://github.com/horsicq/XAboutWidget.git
           git clone https://github.com/horsicq/hex_templates.git
           git clone https://github.com/horsicq/XExtractorWidget.git
           git clone https://github.com/horsicq/XExtractor.git
-          git clone https://github.com/DevX-Cipher/XUpdate.git
+          git clone https://github.com/horsicq/XUpdate.git
           git clone https://github.com/horsicq/XVisualizationWidget.git
           git clone https://github.com/horsicq/XDecompiler.git
           git clone https://github.com/horsicq/XYara.git
@@ -176,7 +176,7 @@ jobs:
       - name: Build
         working-directory: ${{ env.SRC_PATH }}
         run: |
-          git clone https://github.com/horsicq/Detect-It-Easy.git
+           git clone https://github.com/horsicq/Detect-It-Easy.git
           git clone https://github.com/horsicq/Formats.git
           git clone https://github.com/horsicq/SpecAbstract.git
           git clone https://github.com/horsicq/StaticScan.git
@@ -218,11 +218,11 @@ jobs:
           git clone https://github.com/horsicq/XInfoDB.git
           git clone https://github.com/horsicq/XSymbolsWidget.git
           git clone https://github.com/horsicq/XOnlineTools.git
-          git clone https://github.com/DevX-Cipher/XAboutWidget.git
+          git clone https://github.com/horsicq/XAboutWidget.git
           git clone https://github.com/horsicq/hex_templates.git
           git clone https://github.com/horsicq/XExtractorWidget.git
           git clone https://github.com/horsicq/XExtractor.git
-          git clone https://github.com/DevX-Cipher/XUpdate.git
+          git clone https://github.com/horsicq/XUpdate.git
           git clone https://github.com/horsicq/XVisualizationWidget.git
           git clone https://github.com/horsicq/XDecompiler.git
           git clone https://github.com/horsicq/XYara.git
@@ -289,11 +289,11 @@ jobs:
           git clone https://github.com/horsicq/XInfoDB.git
           git clone https://github.com/horsicq/XSymbolsWidget.git
           git clone https://github.com/horsicq/XOnlineTools.git
-          git clone https://github.com/DevX-Cipher/XAboutWidget.git
+          git clone https://github.com/horsicq/XAboutWidget.git
           git clone https://github.com/horsicq/hex_templates.git
           git clone https://github.com/horsicq/XExtractorWidget.git
           git clone https://github.com/horsicq/XExtractor.git
-          git clone https://github.com/DevX-Cipher/XUpdate.git
+          git clone https://github.com/horsicq/XUpdate.git
           git clone https://github.com/horsicq/XVisualizationWidget.git
           git clone https://github.com/horsicq/XDecompiler.git
           git clone https://github.com/horsicq/XYara.git
@@ -345,7 +345,7 @@ jobs:
       - name: Clone repositories
         working-directory: ${{ env.SRC_PATH }}
         run: |
-          git clone https://github.com/horsicq/Detect-It-Easy.git
+           git clone https://github.com/horsicq/Detect-It-Easy.git
           git clone https://github.com/horsicq/Formats.git
           git clone https://github.com/horsicq/SpecAbstract.git
           git clone https://github.com/horsicq/StaticScan.git
@@ -387,11 +387,11 @@ jobs:
           git clone https://github.com/horsicq/XInfoDB.git
           git clone https://github.com/horsicq/XSymbolsWidget.git
           git clone https://github.com/horsicq/XOnlineTools.git
-          git clone https://github.com/DevX-Cipher/XAboutWidget.git
+          git clone https://github.com/horsicq/XAboutWidget.git
           git clone https://github.com/horsicq/hex_templates.git
           git clone https://github.com/horsicq/XExtractorWidget.git
           git clone https://github.com/horsicq/XExtractor.git
-          git clone https://github.com/DevX-Cipher/XUpdate.git
+          git clone https://github.com/horsicq/XUpdate.git
           git clone https://github.com/horsicq/XVisualizationWidget.git
           git clone https://github.com/horsicq/XDecompiler.git
           git clone https://github.com/horsicq/XYara.git
@@ -459,7 +459,7 @@ jobs:
       - name: Clone repositories
         working-directory: ${{ env.SRC_PATH }}
         run: |
-          git clone https://github.com/horsicq/Detect-It-Easy.git
+           git clone https://github.com/horsicq/Detect-It-Easy.git
           git clone https://github.com/horsicq/Formats.git
           git clone https://github.com/horsicq/SpecAbstract.git
           git clone https://github.com/horsicq/StaticScan.git
@@ -501,11 +501,11 @@ jobs:
           git clone https://github.com/horsicq/XInfoDB.git
           git clone https://github.com/horsicq/XSymbolsWidget.git
           git clone https://github.com/horsicq/XOnlineTools.git
-          git clone https://github.com/DevX-Cipher/XAboutWidget.git
+          git clone https://github.com/horsicq/XAboutWidget.git
           git clone https://github.com/horsicq/hex_templates.git
           git clone https://github.com/horsicq/XExtractorWidget.git
           git clone https://github.com/horsicq/XExtractor.git
-          git clone https://github.com/DevX-Cipher/XUpdate.git
+          git clone https://github.com/horsicq/XUpdate.git
           git clone https://github.com/horsicq/XVisualizationWidget.git
           git clone https://github.com/horsicq/XDecompiler.git
           git clone https://github.com/horsicq/XYara.git
