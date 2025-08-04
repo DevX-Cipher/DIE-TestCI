@@ -243,7 +243,6 @@ jobs:
         with:
           path: src
 
-      # FIX: Added a step to clone all dependent repositories.
       - name: Clone repositories
         working-directory: ${{ env.SRC_PATH }}
         run: |
@@ -341,7 +340,6 @@ jobs:
         with:
           path: src
 
-      # FIX: Added a step to clone all dependent repositories.
       - name: Clone repositories
         working-directory: ${{ env.SRC_PATH }}
         run: |
@@ -454,8 +452,6 @@ jobs:
           dir: ${{ github.workspace }}
           modules: qt5compat
 
-      # FIX: Added 'working-directory: ${{ env.SRC_PATH }}' to this step
-      # so that the repositories are cloned into the correct location.
       - name: Clone repositories
         working-directory: ${{ env.SRC_PATH }}
         run: |
