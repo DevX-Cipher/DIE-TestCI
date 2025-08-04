@@ -176,7 +176,7 @@ jobs:
       - name: Build
         working-directory: ${{ env.SRC_PATH }}
         run: |
-           git clone https://github.com/horsicq/Detect-It-Easy.git
+          git clone https://github.com/horsicq/Detect-It-Easy.git
           git clone https://github.com/horsicq/Formats.git
           git clone https://github.com/horsicq/SpecAbstract.git
           git clone https://github.com/horsicq/StaticScan.git
@@ -343,7 +343,7 @@ jobs:
       - name: Clone repositories
         working-directory: ${{ env.SRC_PATH }}
         run: |
-           git clone https://github.com/horsicq/Detect-It-Easy.git
+          git clone https://github.com/horsicq/Detect-It-Easy.git
           git clone https://github.com/horsicq/Formats.git
           git clone https://github.com/horsicq/SpecAbstract.git
           git clone https://github.com/horsicq/StaticScan.git
@@ -455,7 +455,7 @@ jobs:
       - name: Clone repositories
         working-directory: ${{ env.SRC_PATH }}
         run: |
-           git clone https://github.com/horsicq/Detect-It-Easy.git
+          git clone https://github.com/horsicq/Detect-It-Easy.git
           git clone https://github.com/horsicq/Formats.git
           git clone https://github.com/horsicq/SpecAbstract.git
           git clone https://github.com/horsicq/StaticScan.git
